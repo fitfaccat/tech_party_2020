@@ -24,8 +24,6 @@ export default {
     border: 0;
 }
 #app {
-    a {
-        text-decoration: none;
-    }
+    a { text-decoration: none; }
 }
 </style>

@@ -1,17 +1,17 @@
 <template>
     <header>
-        <div class="div1">
-        <img src="https://techparty.faccat.br/images/logos/LogoTPtexto2.png" alt="Logo">
-        <ul >
-           <li><a href="">INICIO</a></li>
-            <li><a href="">PROGRAMAÇÃO</a></li>
-             <li><a href="">INSCRIÇÃO</a></li>
-             <li><a href="">SOBRE</a></li>
-             <li><a href="">PARCEIROS</a></li>
-            <li><a href="">LOCAL</a></li>    
-        </ul>
-    </div>
-    <div class="div2"></div>
+        <navbar>
+            <img src="https://techparty.faccat.br/images/logos/LogoTPtexto2.png" alt="Logo">
+            <ul >
+               <li><a href="#">INICIO</a></li>
+               <li><a href="#">PROGRAMAÇÃO</a></li>
+               <li><a href="#">INSCRIÇÃO</a></li>
+               <li><a href="#">SOBRE</a></li>
+               <li><a href="#">PARCEIROS</a></li>
+               <li><a href="#">LOCAL</a></li>    
+            </ul>
+        </navbar>
+        <div class="gradient-bottom"></div>
     </header>
 </template>
 
@@ -22,19 +22,20 @@ export default {
 </script>
 
 <style scoped lang="scss">
-    $primary-color:#0e0b16;
+    $primary-color:#0E0B16;
     $secundary-color: #E7DFDD;
+    
     header {
         display: flex;
         flex-direction: column;
-        .div1 {
+        
+        navbar {
             background-color: $primary-color;
             padding: 0 1rem;
             display: flex;
             justify-content: space-between;
             
             img { height: 6rem; }
-            
             ul {
                 display: flex;
                 justify-content: space-around;
@@ -42,24 +43,24 @@ export default {
                 margin-right: 2rem;
             
                 li {
-                    padding: 1rem 1.5rem;
-                    border-left: 1px solid $secundary-color;
                     color: $secundary-color;
-                    &:first-child { border: none; }
-                
-                    a {color: $secundary-color;}
+                    border-left: 1px solid $secundary-color;
                     
-                    a:hover{
-                        padding: 2px;
-                        background-color: $secundary-color;
-                        border-radius: 3px;
-                        color: $primary-color;
-                        border: 3px  outset $secundary-color;
+                    &:first-child { border: none; }
+                    a {
+                        color: $secundary-color;
+                        padding: .5rem 1.5rem;
+                        
+                        &:hover{
+                            background-color: $secundary-color;
+                            color: $primary-color;
+                        }
                     }
+                    
                 }
             }
         }
-        .div2 {
+        .gradient-bottom {
             background-color: transparent;
             background-image: linear-gradient(to bottom, $primary-color 5%, transparent);
             height: 50px;
