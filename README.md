@@ -1,24 +1,22 @@
-# tech_party_2020
+# Tech Party 2020
+
+## O que é
+Este é o projeto do site do maior evento de tecnologia da [FACCAT](https://www2.faccat.br/portal/), conhecido como Tech Party, que está na sua 7ª edição!
 
 ## Project setup
-```
+```bash
+git clone https://github.com/fitfaccat/tech_party_2020.git
+cd tech_party_2020
 npm install
-```
-
-### Compiles and hot-reloads for development
-```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
+## Compila para produção
+```bash
 npm run build
 ```
 
-### Lints and fixes files
-```
+## Correção de código
+```bash
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
