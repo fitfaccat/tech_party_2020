@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <HeaderMenu/>
+		<HeaderMenu/>
+		<Sponsors/>
   </div>
 </template>
 
 <script>
 import HeaderMenu from './components/HeaderMenu.vue'
-
+import Sponsors from './components/Sponsors.vue'
+		
 export default {
   name: 'App',
   components: {
-    HeaderMenu
+    HeaderMenu,
+		Sponsors
   }
 }
 </script>
