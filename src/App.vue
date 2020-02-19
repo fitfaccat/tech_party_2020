@@ -4,6 +4,7 @@
     <HeaderMenu />
     <Banner />
     <Speakers />
+    <Subscribe />
     
   </div>
 </template>
@@ -12,13 +13,15 @@
 import HeaderMenu from './components/HeaderMenu.vue';
 import Banner from './components/Banner.vue';
 import Speakers from './components/Speakers.vue';
+import Subscribe from './components/Subscribe.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderMenu,
     Banner,
-    Speakers
+    Speakers,
+    Subscribe
   }
 }
 </script>
