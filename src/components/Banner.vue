@@ -21,7 +21,7 @@ export default {
 
 #banner {
 	position: relative;
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	background: url('https://techparty.faccat.br/2018/img/banner-1.jpg') no-repeat center center fixed;
 	background-size: cover;
@@ -68,5 +68,4 @@ export default {
 		}
 	}
 }
-
 </style>
