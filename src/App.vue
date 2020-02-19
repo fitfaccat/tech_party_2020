@@ -4,6 +4,7 @@
     <HeaderMenu />
     <Banner />
     <Speakers />
+    <Subscribe />
     <Churras />
     
   </div>
@@ -13,6 +14,7 @@
 import HeaderMenu from './components/HeaderMenu.vue';
 import Banner from './components/Banner.vue';
 import Speakers from './components/Speakers.vue';
+import Subscribe from './components/Subscribe.vue';
 import Churras from './components/Churras.vue';
 
 export default {
@@ -21,6 +23,7 @@ export default {
     HeaderMenu,
     Banner,
     Speakers,
+    Subscribe,
     Churras
   }
 }
