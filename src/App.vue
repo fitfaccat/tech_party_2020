@@ -6,6 +6,7 @@
     <Speakers />
     <Subscribe />
     <Churras />
+    <Local />
     
   </div>
 </template>
@@ -16,6 +17,7 @@ import Banner from './components/Banner.vue';
 import Speakers from './components/Speakers.vue';
 import Subscribe from './components/Subscribe.vue';
 import Churras from './components/Churras.vue';
+import Local from './components/Local.vue';
 
 export default {
   name: 'App',
@@ -24,7 +26,8 @@ export default {
     Banner,
     Speakers,
     Subscribe,
-    Churras
+    Churras,
+    Local
   }
 }
 </script>
