@@ -4,6 +4,7 @@
     <HeaderMenu />
     <Banner />
     <Speakers />
+    <Local />
     
   </div>
 </template>
@@ -12,13 +13,15 @@
 import HeaderMenu from './components/HeaderMenu.vue';
 import Banner from './components/Banner.vue';
 import Speakers from './components/Speakers.vue';
+import Local from './components/Local.vue';
 
 export default {
   name: 'App',
   components: {
     HeaderMenu,
     Banner,
-    Speakers
+    Speakers,
+    Local
   }
 }
 </script>
