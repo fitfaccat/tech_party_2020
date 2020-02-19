@@ -4,6 +4,8 @@
     <HeaderMenu />
     <Banner />
     <Speakers />
+    <Subscribe />
+    <Churras />
     <Local />
     
   </div>
@@ -13,6 +15,8 @@
 import HeaderMenu from './components/HeaderMenu.vue';
 import Banner from './components/Banner.vue';
 import Speakers from './components/Speakers.vue';
+import Subscribe from './components/Subscribe.vue';
+import Churras from './components/Churras.vue';
 import Local from './components/Local.vue';
 
 export default {
@@ -21,6 +25,8 @@ export default {
     HeaderMenu,
     Banner,
     Speakers,
+    Subscribe,
+    Churras,
     Local
   }
 }
@@ -40,7 +46,8 @@ html, body { height: 100vh; }
 
 #app {
   width: 100%;
-  
+  background-color: #0E0B16;
+
   a { text-decoration: none; }
 }
 
