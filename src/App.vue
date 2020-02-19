@@ -50,9 +50,4 @@ html, body { height: 100vh; }
 
   a { text-decoration: none; }
 }
-
-header {
-  position: fixed;
-  z-index: 99;
-}
 </style>
