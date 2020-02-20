@@ -1,8 +1,6 @@
 <template>
 	<section id="local">
-
 		<h2>E segue o rumo do teu próprio coração</h2>
-
 		<section>
 			<article id="address">
 				<p>FACCAT</p>
@@ -10,16 +8,8 @@
 				<p>Bairro Fogão Gaúcho</p>
 				<p>Taquara, Rio Grande do Sul</p>
 			</article>
-			<article id="maps">
-
-			</article>
-			<footer>
-				<section>FOOTER 1</section>
-				<section>FOOTER 2</section>
-				<section>FOOTER 3</section>
-			</footer>
+			<article id="maps"></article>
 		</section>
-
 	</section>
 </template>
 
@@ -36,9 +26,7 @@ export default {
 	background: #0E0B16;
 	color: #E7DFDD;
 
-	h2 {
-		padding-bottom: 2rem;
-	}
+	h2 { padding-bottom: 2rem; }
 	section {
 		article,
 		footer {
@@ -54,11 +42,6 @@ export default {
 			p { padding: .25rem; }
 		}
 		#maps { height: 100vh; background: darkseagreen; }
-		footer {
-			height: 50vh;
-			flex-direction: row;
-			justify-content: space-around;
-		}
 	}
 }
 </style>
