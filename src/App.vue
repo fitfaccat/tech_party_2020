@@ -29,10 +29,9 @@ export default {
     Banner,
     Speakers,
     Subscribe,
-		Sponsors,
+    Sponsors,
     Churras,
     Local
->>>>>>> master
   }
 }
 </script>
