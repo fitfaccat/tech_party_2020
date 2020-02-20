@@ -1,32 +1,58 @@
 <template>
   <div id="app">
-		<HeaderMenu/>
-		<Sponsors/>
+
+    <HeaderMenu />
+    <Banner />
+    <Speakers />
+    <Subscribe />
+    <Sponsors />
+    <Churras />
+    <Local />
+    
   </div>
 </template>
 
 <script>
-import HeaderMenu from './components/HeaderMenu.vue'
+	
+import HeaderMenu from './components/HeaderMenu.vue';
+import Banner from './components/Banner.vue';
+import Speakers from './components/Speakers.vue';
+import Subscribe from './components/Subscribe.vue';
 import Sponsors from './components/Sponsors.vue'
-		
+import Churras from './components/Churras.vue';
+import Local from './components/Local.vue';
+
 export default {
   name: 'App',
   components: {
     HeaderMenu,
-		Sponsors
+    Banner,
+    Speakers,
+    Subscribe,
+		Sponsors,
+    Churras,
+    Local
+>>>>>>> master
   }
 }
 </script>
 
 <style lang="scss">
 * {
-    padding: 0;
-    margin: 0;
-    vertical-align: baseline;
-    list-style: none;
-    border: 0;
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
 }
+html, body { height: 100vh; }
+
 #app {
-    a { text-decoration: none; }
+  width: 100%;
+  background-color: #0E0B16;
+
+  a { text-decoration: none; }
 }
 </style>
