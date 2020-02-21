@@ -9,6 +9,7 @@
     <Sponsors />
     <Churras />
     <Local />
+    <FooterPage/>
     
   </div>
 </template>
@@ -23,7 +24,8 @@ import Subscribe from './components/Subscribe.vue';
 import Sponsors from './components/Sponsors.vue'
 import Churras from './components/Churras.vue';
 import Local from './components/Local.vue';
-
+import FooterPage from './components/FooterPage.vue';
+	
 export default {
   name: 'App',
   components: {
@@ -34,7 +36,8 @@ export default {
     Subscribe,
     Sponsors,
     Churras,
-    Local
+    Local,
+		FooterPage
   }
 }
 </script>
