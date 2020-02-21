@@ -3,6 +3,7 @@
 
     <HeaderMenu />
     <Banner />
+    <Schedule />
     <Speakers />
     <Subscribe />
     <Sponsors />
@@ -16,6 +17,7 @@
 	
 import HeaderMenu from './components/HeaderMenu.vue';
 import Banner from './components/Banner.vue';
+import Schedule from './components/Schedule.vue';
 import Speakers from './components/Speakers.vue';
 import Subscribe from './components/Subscribe.vue';
 import Sponsors from './components/Sponsors.vue'
@@ -26,6 +28,7 @@ export default {
   name: 'App',
   components: {
     HeaderMenu,
+    Schedule,
     Banner,
     Speakers,
     Subscribe,
