@@ -3,77 +3,119 @@
 		<h2>Cronograma</h2>
 
 		<section class="content-talks">
+			<tabs class="wrap-panel">
+				<tab name="27/Abril" :selected="true" class="tab-panel">
+					<article
+						class="talk"
+						v-for="n in 3"
+						:key="n"
+					>
+						<div class="wrap-talk">
+							<div class="wrap-info">
+								<h2>Usando Windows no MacBook</h2>
+								<div class="wrap-local">
+									<div><span>Horário: 19:30</span></div>
+									<div><span>Sala: B202</span></div>
+								</div>
+							</div>
+							<p>
+								Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
+							</p>
+						</div>
+						<div class="wrap-perfil">
+							<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
+							<p>Bill Gates</p>
+						</div>
+					</article>
+				</tab>
+				<tab name="28/Abril">
+					<article
+						class="talk"
+						v-for="n in 2"
+						:key="n"
+					>
+						<div class="wrap-talk">
+							<div class="wrap-info">
+								<h2>Usando Windows no MacBook</h2>
+								<div class="wrap-local">
+									<div><span>Horário: 19:30</span></div>
+									<div><span>Sala: B202</span></div>
+								</div>
+							</div>
+							<p>
+								Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
+							</p>
+						</div>
+						<div class="wrap-perfil">
+							<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
+							<p>Bill Gates</p>
+						</div>
+					</article>
+				</tab>
+				<tab name="29/Abril">
+					<article
+						class="talk"
+						v-for="n in 3"
+						:key="n"
+					>
+						<div class="wrap-talk">
+							<div class="wrap-info">
+								<h2>Usando Windows no MacBook</h2>
+								<div class="wrap-local">
+									<div><span>Horário: 19:30</span></div>
+									<div><span>Sala: B202</span></div>
+								</div>
+							</div>
+							<p>
+								Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
+							</p>
+						</div>
+						<div class="wrap-perfil">
+							<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
+							<p>Bill Gates</p>
+						</div>
+					</article>
+				</tab>
+				<tab name="30/Abril">
+					<article
+						class="talk"
+						v-for="n in 2"
+						:key="n"
+					>
+						<div class="wrap-talk">
+							<div class="wrap-info">
+								<h2>Usando Windows no MacBook</h2>
+								<div class="wrap-local">
+									<div><span>Horário: 19:30</span></div>
+									<div><span>Sala: B202</span></div>
+								</div>
+							</div>
+							<p>
+								Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
+							</p>
+						</div>
+						<div class="wrap-perfil">
+							<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
+							<p>Bill Gates</p>
+						</div>
+					</article>
+				</tab>
+			</tabs>
 
-			<nav class="menu-talks">
-				<span class="active">27/Abril</span>
-				<span>28/Abril</span>
-				<span>29/Abril</span>
-				<span>30/Abril</span>
-			</nav>
-
-			<section>
-				<article class="talk">
-					<div class="wrap-talk">
-						<div class="wrap-info">
-							<h2>Usando Windows no MacBook</h2>
-							<div class="wrap-local">
-								<div><span>Horário: 19:30</span></div>
-								<div><span>Sala: B202</span></div>
-							</div>
-						</div>
-						<p>
-							Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
-						</p>
-					</div>
-					<div class="wrap-perfil">
-						<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
-						<p>Bill Gates</p>
-					</div>
-				</article>
-				<article class="talk">
-					<div class="wrap-talk">
-						<div class="wrap-info">
-							<h2>Usando Windows no MacBook</h2>
-							<div class="wrap-local">
-								<div><span>Horário: 19:30</span></div>
-								<div><span>Sala: B202</span></div>
-							</div>
-						</div>
-						<p>
-							Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
-						</p>
-					</div>
-					<div class="wrap-perfil">
-						<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
-						<p>Bill Gates</p>
-					</div>
-				</article>
-				<article class="talk">
-					<div class="wrap-talk">
-						<div class="wrap-info">
-							<h2>Usando Windows no MacBook</h2>
-							<div class="wrap-local">
-								<div><span>Horário: 19:30</span></div>
-								<div><span>Sala: B202</span></div>
-							</div>
-						</div>
-						<p>
-							Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
-						</p>
-					</div>
-					<div class="wrap-perfil">
-						<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
-						<p>Bill Gates</p>
-					</div>
-				</article>
-			</section>
 		</section>
 	</section>
 </template>
 
 <script>
+import Tabs from './tabulation/Tabs.vue';
+import Tab from './tabulation/Tab.vue';
+
 export default {
-  name: 'Schedule'
+	name: 'Schedule',
+	components: {
+		Tabs,
+		Tab
+	}
 }
 </script>
 
@@ -90,34 +132,9 @@ export default {
 		background: #E5E5E5;
 		color: #0E0B16;
 		height: 90%;
-		display: flex;
-		flex-direction: column;
-
-		.menu-talks {
-			width: 100%;
-			display: flex;
-			justify-content: space-around;
-
-			.active {
-				background: #E5E5E5;
-				box-shadow: none;
-			}
-			span {
-				box-shadow: inset 1px -2px 5px #0E0B16;
-				background: #e84c3d;
-				flex: 1;
-				text-align: center;
-				padding: 1rem 0;
-				border-left: 2px solid #0E0B16;
-
-				&:first-child {
-					border-left: none;
-				}
-			}
-		}
-		section {
-			overflow-y: auto;
-			padding: .5rem 1rem;
+		
+		.wrap-panel {
+			height: 100%;
 		
 			.talk {
 				display: flex;
