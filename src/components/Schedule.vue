@@ -22,10 +22,10 @@
 								Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
 							</p>
 						</div>
-						<div class="wrap-perfil">
+						<a href="#" class="wrap-perfil">
 							<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
 							<p>Bill Gates</p>
-						</div>
+						</a>
 					</article>
 				</tab>
 				<tab name="28/Abril">
@@ -36,7 +36,7 @@
 					>
 						<div class="wrap-talk">
 							<div class="wrap-info">
-								<h2>Usando Windows no MacBook</h2>
+								<h2>Teste</h2>
 								<div class="wrap-local">
 									<div><span>Horário: 19:30</span></div>
 									<div><span>Sala: B202</span></div>
@@ -46,10 +46,10 @@
 								Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
 							</p>
 						</div>
-						<div class="wrap-perfil">
+						<a href="#" class="wrap-perfil">
 							<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
 							<p>Bill Gates</p>
-						</div>
+						</a>
 					</article>
 				</tab>
 				<tab name="29/Abril">
@@ -70,10 +70,10 @@
 								Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
 							</p>
 						</div>
-						<div class="wrap-perfil">
+						<a href="#" class="wrap-perfil">
 							<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
 							<p>Bill Gates</p>
-						</div>
+						</a>
 					</article>
 				</tab>
 				<tab name="30/Abril">
@@ -94,10 +94,10 @@
 								Essa palestra explica como é fácil instalar o Windows em um simples MacBook, com apenas algum minutinhos você terá a bela tela azul em sua frente.
 							</p>
 						</div>
-						<div class="wrap-perfil">
+						<a href="#" class="wrap-perfil">
 							<img src="https://pbs.twimg.com/profile_images/988775660163252226/XpgonN0X_400x400.jpg" alt="Bill Gates">
 							<p>Bill Gates</p>
-						</div>
+						</a>
 					</article>
 				</tab>
 			</tabs>
@@ -120,17 +120,25 @@ export default {
 </script>
 
 <style scoped lang="scss">
+$primary-color: #0E0B16;
+$secundary-color: #E7DFDD;
+$tertiary-color: #E84C3D;
+
+$transition-timing-function: cubic-bezier(.52,.41,.81,.09);
+$transition-duration: .1s;
+$transition-delay: .1s;
+
 #schedule {
 	width: 100%;
 	height: 100vh;
 	padding: 2rem;
-	background: #0E0B16;
-	color: #E7DFDD;
+	background: $primary-color;
+	color: $secundary-color;
 
 	h2 { padding-bottom: 2rem; }
 	.content-talks {
 		background: #E5E5E5;
-		color: #0E0B16;
+		color: $primary-color;
 		height: 90%;
 		
 		.wrap-panel {
@@ -171,7 +179,7 @@ export default {
 							&::before {
 								content: '';
 								position: absolute;
-								background: #0E0B16;
+								background: $primary-color;
 								height: 70%;
 								top: 15%;
 								left: 0;
@@ -192,11 +200,17 @@ export default {
 					justify-content: center;
 					align-items: center;
 					padding: 1rem 0;
+					color: $primary-color;
+					transition:
+            opacity
+            $transition-duration
+            $transition-timing-function;
 					
+					&:hover { opacity: .5; }
 					img {
 						width: 160px;
 						border-radius: 50%;
-						border: 2px solid #e84c3d;
+						border: 2px solid $tertiary-color;
 					}
 					p { padding-top: .5rem; }
 				}
