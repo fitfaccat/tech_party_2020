@@ -4,20 +4,26 @@
 		<article>
 			<img src="https://techparty.faccat.br/images/logos/techparty-logo.png" alt="">
 			<div>27 a 30 de Abril - FACCAT</div>
-			<div id="timer">00:00:00:000</div>
+			<Countdown
+				dateEvent="1588015800000"
+			/>
 			<a href="#">INSCREVA-SE</a>
 		</article>
 	</section>
 </template>
 
 <script>
+import Countdown from './countdown/Countdown.vue';
+
 export default {
-  name: 'Banner'
+	name: 'Banner',
+	components: {
+		Countdown
+	}
 }
 </script>
 
 <style scoped lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700&display=swap');
 @import './../assets/sass/variables.scss';
 
 #banner {
@@ -35,7 +41,7 @@ export default {
 	}
 	.filter {
 		backdrop-filter: blur(2px);
-		background: #00000077;
+		background: #000000a3;
 	}
 	article {
 		display: flex;
@@ -48,11 +54,6 @@ export default {
 		img,
 		div,
 		a { margin: .5rem; }
-		#timer {
-			font-size: 42px;
-			margin: 1rem;
-			font-family: 'Roboto Mono', monospace;
-		}
 		a {
 			border: 2px solid $secundary-color;
 			padding: 1rem 2rem;
