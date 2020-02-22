@@ -120,13 +120,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$primary-color: #0E0B16;
-$secundary-color: #E7DFDD;
-$tertiary-color: #E84C3D;
-
-$transition-timing-function: cubic-bezier(.52,.41,.81,.09);
-$transition-duration: .1s;
-$transition-delay: .1s;
+@import './../assets/sass/variables.scss';
 
 #schedule {
 	width: 100%;
@@ -137,7 +131,7 @@ $transition-delay: .1s;
 
 	h2 { padding-bottom: 2rem; }
 	.content-talks {
-		background: #E5E5E5;
+		background: $secundary-color;
 		color: $primary-color;
 		height: 90%;
 		

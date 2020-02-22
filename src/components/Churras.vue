@@ -26,10 +26,12 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import './../assets/sass/variables.scss';
+
 #churras {
 	width: 100%;
 	padding: 2rem;
-	color: #E7DFDD;
+	color: $secundary-color;
 
 	h2 { padding-bottom: 2rem; }
 	section {
@@ -43,7 +45,7 @@ export default {
 			justify-content: space-around;
 		}
 		article {
-			border: 1px solid #000;
+			border: 1px solid $primary-color;
 
 			img { width: 75%; }
 			.wrap-text {

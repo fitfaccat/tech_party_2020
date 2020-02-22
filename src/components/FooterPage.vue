@@ -56,12 +56,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$primary-color: #0E0B16;
-$secundary-color: #E7DFDD;
-	
-$transition-timing-function: cubic-bezier(.52,.41,.81,.09);
-$transition-duration: .1s;
-$transition-delay: .1s;
+@import './../assets/sass/variables.scss';
 
 	footer{
 		height: 50vh;
@@ -171,7 +166,7 @@ $transition-delay: .1s;
 			button{
 				padding: 5px;
 				background-color: transparent;
-				color:black;
+				color:$primary-color;
 				float: right;
 				align-content: center;
 				margin-right: 1rem;

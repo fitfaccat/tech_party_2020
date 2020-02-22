@@ -27,14 +27,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import './../assets/sass/variables.scss';
+
 #subscribe {
 	width: 100%;
 	padding: 2rem;
-	background: #0E0B16;
-	color: #E7DFDD;
+	background: $primary-color;
+	color: $secundary-color;
 
 	h2 { padding-bottom: 2rem; }
-	a { color: #E7DFDD; }
+	a { color: $secundary-color; }
 	section {
 		display: flex;
 
@@ -46,19 +48,27 @@ export default {
 			align-items: center;
 			justify-content: center;
 			cursor: pointer;
-			transition: background-color .1s cubic-bezier(.52,.41,.81,.09);
+			transition:
+          background-color
+          $transition-duration
+          $transition-timing-function;
 
 			a,
-			p { transition: color .1s cubic-bezier(.52,.41,.81,.09); }
+			p {
+				transition:
+          color
+          $transition-duration
+          $transition-timing-function;
+			}
 			&:hover {
-				background: #E7DFDD;
+				background: $secundary-color;
 
 				a,
-				p { color: #0E0B16; }
+				p { color: $primary-color; }
 			}
 			a {
 				font-size: 32px;
-				color: #E7DFDD;
+				color: $secundary-color;
 				font-weight: bold;
 			}
 			img { width: 85%; }
@@ -69,7 +79,7 @@ export default {
 		}
 		.line {
 			width: .25rem;
-			background: #E7DFDD;
+			background: $secundary-color;
 		}
 	}
 }

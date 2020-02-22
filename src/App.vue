@@ -43,6 +43,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import './assets/sass/variables.scss';
+
 * {
   padding: 0;
   margin: 0;
@@ -56,7 +58,7 @@ html, body { height: 100vh; }
 
 #app {
   width: 100%;
-  background-color: #0E0B16;
+  background-color: $primary-color;
 
   a { text-decoration: none; }
 }
