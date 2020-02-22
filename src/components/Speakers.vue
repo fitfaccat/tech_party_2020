@@ -87,17 +87,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import './../assets/sass/variables.scss';
+
 #speakers {
 	width: 100%;
 	padding: 2rem;
-	background: #0E0B16;
+	background: $primary-color;
 
 	h2 {
 		padding-bottom: 2rem;
-		color: #E7DFDD;
+		color: $secundary-color;
 	}
 	section {
-		// padding: 0 2rem;
 		display: flex;
 
 		article {
@@ -107,9 +108,8 @@ export default {
 			align-items: center;
 			justify-content: center;
 		}
-
 		.perfil-photo {
-			background: #E84C3D;
+			background: $tertiary-color;
 
 			img {
 				height: 280px;
@@ -121,7 +121,7 @@ export default {
 		.perfil-info {
 			display: flex;
 			flex-direction: column;
-			background: #E7DFDD;
+			background: $secundary-color;
 
 			p,
 			.perfil-wrap { flex: 1 }
@@ -144,7 +144,6 @@ export default {
 					}
 				}
 			}
-
 			p {
 				padding: 1rem;
 				text-align: justify;

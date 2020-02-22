@@ -20,11 +20,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import './../assets/sass/variables.scss';
+
 #local {
 	width: 100%;
 	padding: 2rem;
-	background: #0E0B16;
-	color: #E7DFDD;
+	background: $primary-color;
+	color: $secundary-color;
 
 	h2 { padding-bottom: 2rem; }
 	section {

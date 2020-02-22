@@ -168,9 +168,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-	$primary-color:#0E0B16;
-  $secundary-color: #E7DFDD;
-
+@import './../assets/sass/variables.scss';
 	
 	section{
 		background-color: $primary-color;
@@ -187,7 +185,7 @@ export default {
 		#conteinerPlatinum{			
 			h2{ 
 				width: 100%;
-				background-color: #acafac;
+				background-color: $platinium;
 				height: 2rem;
 				text-align: center;
 				justify-content: space-around;
@@ -234,7 +232,7 @@ export default {
 		#conteinerGold{			
 			h2{ 
 				width: 100%;
-				background-color: Gold;
+				background-color: $gold;
 				height: 2rem;
 				text-align: center;
 				justify-content: space-around;
@@ -285,7 +283,7 @@ export default {
 		#conteinerSilver{			
 			h2{ 
 				width: 100%;
-				background-color: silver;
+				background-color: $silver;
 				height: 2rem;
 				text-align: center;
 				justify-content: space-around;
@@ -336,7 +334,7 @@ export default {
 		#conteinerBronze{			
 			h2{ 
 				width: 100%;
-				background-color: #b87333;
+				background-color: $bronze;
 				height: 2rem;
 				text-align: center;
 				justify-content: space-around;
@@ -387,7 +385,7 @@ export default {
 		#conteinerSupport{			
 			h2{ 
 				width: 100%;
-				background-color: #e84c3d;
+				background-color: $tertiary-color;
 				height: 2rem;
 				text-align: center;
 				justify-content: space-around;

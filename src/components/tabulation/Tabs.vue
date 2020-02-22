@@ -41,7 +41,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$tabulation-color: #e5e5e5;
+@import './../../assets/sass/variables.scss';
 
 .menu-talks {
 	width: 100%;
@@ -50,7 +50,7 @@ $tabulation-color: #e5e5e5;
 	justify-content: space-around;
 
 	.is-active {
-		background: $tabulation-color;
+		background: $secundary-color;
 		box-shadow: none;
 	}
 	a {
@@ -59,10 +59,10 @@ $tabulation-color: #e5e5e5;
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		box-shadow: inset 1px -2px 5px #0E0B16;
-		border-left: 2px solid #0E0B16;
-		background: #e84c3d;
-		color: #0E0B16;
+		box-shadow: inset 1px -2px 5px $primary-color;
+		border-left: 2px solid $primary-color;
+		background: $tertiary-color;
+		color: $primary-color;
 		font-weight: bold;
 
 		&:first-child { border-left: none; }

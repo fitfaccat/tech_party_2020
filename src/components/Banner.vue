@@ -18,6 +18,7 @@ export default {
 
 <style scoped lang="scss">
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:700&display=swap');
+@import './../assets/sass/variables.scss';
 
 #banner {
 	position: relative;
@@ -41,7 +42,7 @@ export default {
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
-		color: white;
+		color: $secundary-color;
 		font-size: 24px;
 
 		img,
@@ -53,17 +54,23 @@ export default {
 			font-family: 'Roboto Mono', monospace;
 		}
 		a {
-			border: 2px solid white;
+			border: 2px solid $secundary-color;
 			padding: 1rem 2rem;
-			color: white;
+			color: $secundary-color;
 			font-weight: bold;
 			border-radius: 1rem;
-			transition: background-color .1s cubic-bezier(.52,.41,.81,.09);
-			transition: color .1s cubic-bezier(.52,.41,.81,.09);
+			transition:
+				background-color
+				$transition-duration
+				$transition-timing-function;
+			transition:
+				color
+				$transition-duration
+				$transition-timing-function;
 
 			&:hover {
-				color: black;
-				background: white;
+				color: $primary-color;
+				background: $secundary-color;
 			}
 		}
 	}
