@@ -1,5 +1,6 @@
 <template>
 	<footer>
+		<div class="footer-informations">
 		<div id="footerInformations">
 			<div id="footerSubscribe">
 				<h1>TechParty 2020</h1>
@@ -23,10 +24,10 @@
 		<div id="footerSocialMedias">
 			<div id="socialShare">
 				<h2>Compartilhe</h2>
-				<img src="../assets/f_logo_RGB-Blue_58.png" alt="">
-				<a href="">@techpartyfaccat</a>
-				<img src="../assets/Twitter_Social_Icon_Circle_Color.png" alt="">
-				<a href="">@techpartyfaccat</a>
+					<img src="../assets/f_logo_RGB-Blue_58.png" alt="">
+					<a href="">@techpartyfaccat</a>
+					<img src="../assets/Twitter_Social_Icon_Circle_Color.png" alt="">
+					<a href="">@techpartyfaccat</a>
 			</div>
 			<div id="socialFollow">
 				<h2>Siga-nos</h2>
@@ -39,12 +40,11 @@
 				<a href="">techpartyfaccat@gmail.com</a>
 			</div>
 		</div>
-		<div id="footerGit">
-		<img src="" alt="">
-		<div>
-			<h3>tech_party_2020</h3>
-			<img src="" alt="">
 		</div>
+		<div id="footerGit">
+			<button>
+				tech_party_2020 <img src="../assets/GitHub-Mark-32px.png" alt="">
+			</button>
 		</div>
 	</footer>
 </template>
@@ -64,11 +64,12 @@ $transition-duration: .1s;
 $transition-delay: .1s;
 
 	footer{
-		display: inline-grid;
 		height: 50vh;
-		width: 100vw;
-		background-color: $primary-color;
-		grid-template-columns: 1fr 1fr 1fr;
+		.footer-informations{
+			display: grid;
+			height: 45vh;
+			background-color: $primary-color;
+			grid-template-columns: 1fr 1fr 1fr;
 		
 		a{
 			color:$secundary-color;
@@ -89,7 +90,6 @@ $transition-delay: .1s;
 			border-right: 1px solid $secundary-color;
 			display: grid;
 			grid-template-rows: 1fr 1fr;
-			height: 40vh;
 			
 			#footerSubscribe{
 				display: grid;
@@ -122,7 +122,6 @@ $transition-delay: .1s;
 		#footerLinks{
 			display: grid;
 			grid-template-rows: 1.3fr .5fr .5fr .5fr .5fr .5fr .5fr;
-			height: 40vh;
 			border-right: 1px solid $secundary-color;
 			align-content: center;
 			justify-content: space-around;
@@ -138,16 +137,56 @@ $transition-delay: .1s;
 			justify-content: space-around;
 			display: grid;
 			grid-template-rows: 1fr 1fr 1fr;
-			height: 40vh;
 			
-			div{
-				height: 33%;
-			}
+/*			div{height: 33%;	}*/
+			
 			#socialShare{
-				img{width: 16px;}
+				display: grid;
+				grid-template-rows: 1fr .5fr .5fr;
+				#shareLinkOne{
+					vertical-align: middle;
+				}
+				#shareLinkTwo{
+					vertical-align: middle;
+				}
+				text-align: center;
+				img{width: 32px;}
 			}
 			#socialFollow{
-				img{width: 32px;}
+				text-align: center;
+				img{
+					width: 48px;
+					margin: .5rem 2rem 0 0;
+				}
+			}
+			}
+			#socialMail{
+				
+			}
+		}
+		#footerGit{
+			align-items: center;
+			background-color: $primary-color;
+			
+			button{
+				padding: 5px;
+				background-color: transparent;
+				color:black;
+				float: right;
+				align-content: center;
+				margin-right: 1rem;
+				img {
+					width:32px;
+					vertical-align: middle;
+				}
+				transition:
+            background-color
+            $transition-duration
+            $transition-timing-function;
+				
+				&:hover{
+					background-color: $secundary-color;
+				}
 			}
 		}
 	}
