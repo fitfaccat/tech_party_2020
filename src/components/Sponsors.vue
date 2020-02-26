@@ -1,5 +1,5 @@
 <template>
-	<section>
+	<section id="sponsors">
 		<div id="becomeSponsor">
 			SEJA VOCÊ UM PATROCINADOR, ENTRE EM CONTATO: TECHPARTYFACCAT@GMAIL.COM
 		</div>
