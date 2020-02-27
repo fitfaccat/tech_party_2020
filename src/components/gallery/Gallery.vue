@@ -16,7 +16,6 @@ export default {
 @import './../../assets/sass/variables.scss';
 
 .wrap-images {
-	background: $color-2014;
 	width: 100%;
 	height: 90vh;
 }

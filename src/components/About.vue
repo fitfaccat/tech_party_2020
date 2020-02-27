@@ -23,7 +23,7 @@
 			</aside>
 		</article>
 
-		<gallery>
+		<gallery class="bg-2014">
 			<div class="images">
 				<div class="title">
 					<h2>2014</h2>
@@ -53,24 +53,34 @@
 			</div>
 		</gallery>
 
-		<gallery>
-			<p>2015</p>
+		<gallery class="bg-2015">
+			<div class="images">
+				2015
+			</div>
 		</gallery>
 
-		<gallery>
-			<p>2016</p>
+		<gallery class="bg-2016">
+			<div class="images">
+				2016
+			</div>
 		</gallery>
 
-		<gallery>
-			<p>2017</p>
+		<gallery class="bg-2017">
+			<div class="images">
+				2017
+			</div>
 		</gallery>
 
-		<gallery>
-			<p>2018</p>
+		<gallery class="bg-2018">
+			<div class="images">
+				2018
+			</div>
 		</gallery>
 
-		<gallery>
-			<p>2019</p>
+		<gallery class="bg-2019">
+			<div class="images">
+				2019
+			</div>
 		</gallery>
 
 
@@ -96,6 +106,13 @@ export default {
 	background: $secundary-color;
 	color: $primary-color;
 	width: 100%;
+
+	.bg-2014 { background: $color-2014; }
+	.bg-2015 { background: $color-2015; }
+	.bg-2016 { background: $color-2016; }
+	.bg-2017 { background: $color-2017; }
+	.bg-2018 { background: $color-2018; }
+	.bg-2019 { background: $color-2019; }
 
 	.images {
 		height: 100%;
