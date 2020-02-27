@@ -21,11 +21,11 @@
         :class="{ openMenu: activeMenu }"
       >
         <li><a href="#">INICIO</a></li>
-        <li><a href="#speakers">PROGRAMAÇÃO</a></li>
-        <li><a href="#">INSCRIÇÃO</a></li>
+        <li><a href="#schedule">PROGRAMAÇÃO</a></li>
+        <li><a href="#subscribe">INSCRIÇÃO</a></li>
         <li><a href="#">SOBRE</a></li>
-        <li><a href="#">PARCEIROS</a></li>
-        <li><a href="#">LOCAL</a></li>    
+        <li><a href="#sponsors">PARCEIROS</a></li>
+        <li><a href="#local">LOCAL</a></li>    
       </ul>
     </nav>
     <div class="gradient-bottom"></div>
