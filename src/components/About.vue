@@ -37,14 +37,30 @@
 						TechParty passou a ser um evento anual, com duração de uma semana inteira, com duas talks (apresentações) por noite e coffee break atraente a fim de estimular a interação das pessoas e o networking. Mantendo a proposta de contar com palestrantes da faculdade e convidados externos, mas sempre com assuntos interessantes e atuais, o evento teve um salto no número de participantes com esse novo formato, ultrapassando 700 pessoas (somadas as 5 noites), entre alunos, ex-alunos, pessoas da comunidade, alunos de escolas da região e representantes de muitas empresas da área de atuação da Faccat.
 					</p>
 				</div>
-				<figure class="a"></figure>
-				<figure class="b"></figure>
-				<figure class="c"></figure>
-				<figure class="d"></figure>
-				<figure class="e"></figure>
-				<figure class="f"></figure>
-				<figure class="g"></figure>
-				<figure class="h"></figure>
+				<figure class="a">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="b">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="c">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="d">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="e">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="f">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="g">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="h">
+					<img src="./../assets/tech-party-old.png" class="img-logo" alt="">
+				</figure>
 			</div>
 		</gallery>
 
@@ -62,14 +78,30 @@
 						A ideia agora é que o momento do lanche seja tão ou mais interessante que as próprias apresentações técnicas. O Rango Break é um momento onde, diariamente, após as duas talks de cada noite, é oferecido alguma comidinha (“rango”) especial, tais como o cachorro-quente de uma famosa Towner de Taquara (que veio para o Campus da Faccat especialmente para o evento), ou a “galinhada nerd”, feita por alunos do curso, sanduíche “buraco quente” e cupcakes, mais um super-dog feito por alunos e, finalmente, no último dia, o grande Churras de Integração dos cursos de TI da Faccat. Esses rangos são fornecidos sem custo aos participantes, graças ao apoio financeiro das empresas patrocinadoras.
 					</p>
 				</div>
-				<figure class="a"></figure>
-				<figure class="b"></figure>
-				<figure class="c"></figure>
-				<figure class="d"></figure>
-				<figure class="e"></figure>
-				<figure class="f"></figure>
-				<figure class="g"></figure>
-				<figure class="h"></figure>
+				<figure class="a">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="b">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="c">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="d">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="e">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="f">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="g">
+					<img src="./../assets/tech-party-old.png" class="img-logo" alt="">
+				</figure>
+				<figure class="h">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
 			</div>
 		</gallery>
 
@@ -84,14 +116,30 @@
 						2016, seguimos crescendo! Nesse ano, queríamos buscar profissionais de empresas conhecidas nacionalmente e do exterior. Como sempre, foram realizadas talks realmente incríveis e conseguimos profissionais de empresas renomadas, como Red Hat, Rocket.Chat, We Heart It, SAP, Mozilla, Terra, Arezzo, CWI Software.
 					</p>
 				</div>
-				<figure class="a"></figure>
-				<figure class="b"></figure>
-				<figure class="c"></figure>
-				<figure class="d"></figure>
-				<figure class="e"></figure>
-				<figure class="f"></figure>
-				<figure class="g"></figure>
-				<figure class="h"></figure>
+				<figure class="a">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="b">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="c">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="d">
+					<img src="./../assets/tech-party.png" class="img-logo" alt="">
+				</figure>
+				<figure class="e">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="f">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="g">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="h">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
 			</div>
 		</gallery>
 
@@ -106,14 +154,30 @@
 						Em 2017 o evento foi um sucesso como todos os outros anos. Batemos mais um recorde em presenças e contamos com palestrantes de primeiríssmo nível: desenvolvedores, empreendedores, psicólogos (sim! falando sobre uso de games eletrônicos para superação de traumas), gamers, diretores e ninjas em IA. Mais uma vez foi possível contar com o patrocínio de empresas excepcionais que ajudam MUITO o evento acontecer. Muito obrigado Senac, LoopHOST, Rocket.Chat, Umbler, FlyByte, Infisc Inteligência Fiscal, Bela Viagem, Sanvitron, CR Sistemas e Web e Jorge Bischoff.
 					</p>
 				</div>
-				<figure class="a"></figure>
-				<figure class="b"></figure>
-				<figure class="c"></figure>
-				<figure class="d"></figure>
-				<figure class="e"></figure>
-				<figure class="f"></figure>
-				<figure class="g"></figure>
-				<figure class="h"></figure>
+				<figure class="a">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="b">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="c">
+					<img src="./../assets/tech-party.png" class="img-logo" alt="">
+				</figure>
+				<figure class="d">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="e">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="f">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="g">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="h">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
 			</div>
 		</gallery>
 
@@ -128,13 +192,27 @@
 						2018, mais uma grande evolução: o evento passa a acontecer no novo Centro de Eventos da Faccat, um prédio bonito, moderno e com muito mais espaço. Isso permitiu aos patrocinadores exporem produtos e montar estandes, deixando o evento mais atrativo para os participantes. Esse foi mais um ano onde o grande número de patrocinadores mostrou a consolidação do evento dentro da comunidade, cujas empresas regionais e de fora confiam e investem para exporem suas marcas e, principalmente, colaboram de maneira fundamental para que o evento ocorra da melhor forma para os participantes.
 					</p>
 				</div>
-				<figure class="a"></figure>
-				<figure class="b"></figure>
-				<figure class="c"></figure>
-				<figure class="d"></figure>
-				<figure class="e"></figure>
-				<figure class="f"></figure>
-				<figure class="g"></figure>
+				<figure class="a">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="b">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="c">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="d">
+					<img src="./../assets/tech-party.png" class="img-logo" alt="">
+				</figure>
+				<figure class="e">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="f">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="g">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
 			</div>
 		</gallery>
 
@@ -149,12 +227,24 @@
 						Em 2019, continuamos trabalhando para fazer um evento atrativo e que valha a pena ser visitado. A ótima novidade e que sem dúvida merece ser registrada na história do evento, é que pela primeira vez teremos mulheres entre os palestrantes: cinco (de um total de nove palestrantes), são mulheres. Infelizmente, por um conjunto de acasos que não esperamos que volte a ocorrer, nas edições anteriores nunca uma mulher havia estado em nossos palcos. Mas neste ano as mulheres são maioria.
 					</p>
 				</div>
-				<figure class="a"></figure>
-				<figure class="b"></figure>
-				<figure class="c"></figure>
-				<figure class="d"></figure>
-				<figure class="e"></figure>
-				<figure class="f"></figure>
+				<figure class="a">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="b">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="c">
+					<img src="./../assets/tech-party.png" class="img-logo" alt="">
+				</figure>
+				<figure class="d">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="e">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="f">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
 			</div>
 		</gallery>
 
@@ -180,7 +270,6 @@ export default {
 <style scoped lang="scss">
 @import './../assets/sass/variables.scss';
 
-
 #about {
 	background: $secundary-color;
 	color: $primary-color;
@@ -195,7 +284,7 @@ export default {
 
 	.text,
 	.title {
-		background: #ffffffaa;
+		background: #ffffffbb;
 		position: absolute;
 		padding: 2rem;
 		z-index: 80;
@@ -206,6 +295,20 @@ export default {
 			margin-top: 1rem;
 			text-align: justify;
 			&:first-child { margin-top: 0; }
+		}
+	}
+	figure {
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+
+		img { display: block; }
+		.img-width { width: 100%; }
+		.img-logo {
+			max-width: 100%;
+			height: 100%;
 		}
 	}
 
@@ -221,58 +324,56 @@ export default {
 			right: 5%;
 			width: 75%;
 		}
-		figure { position: absolute; }
 		.a {
-			background: darkmagenta;
+			background: $tertiary-color;
 			top: 2%;
 			left: 2%;
 			width: 34%;
 			height: 30%;
 		}
 		.b {
-			background: darkolivegreen;
+			background: $tertiary-color;
 			top: 2%;
 			left: 38%;
 			width: 34%;
 			height: 60%;
 		}
 		.c {
-			background: darkred;
+			background: $tertiary-color;
 			top: 2%;
 			right: 2%;
 			width: 24%;
 			height: 45%;
 		}
 		.d {
-			background: darkslategray;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 2%;
 			width: 34%;
 			height: 64%;
 		}
 		.e {
-			background: darkcyan;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 38%;
 			width: 24%;
 			height: 34%;
 		}
 		.f {
-			background: darkblue;
+			background: $tertiary-color;
 			bottom: 2%;
 			right: 2%;
 			width: 34%;
 			height: 20%;
 		}
 		.g {
-			background: darkorange;
+			background: $tertiary-color;
 			bottom: 24%;
 			right: 2%;
 			width: 24%;
 			height: 27%;
 		}
 		.h {
-			background: deepskyblue;
 			bottom: 24%;
 			right: 28%;
 			width: 8%;
@@ -291,58 +392,57 @@ export default {
 			left: 5%;
 			width: 65%;
 		}
-		figure { position: absolute; }
 		.a {
-			background: darkmagenta;
+			background: $tertiary-color;
 			top: 2%;
 			left: 2%;
 			width: 30%;
 			height: 25%;
 		}
 		.b {
-			background: darkolivegreen;
+			background: $tertiary-color;
 			top: 2%;
 			left: 34%;
 			width: 20%;
 			height: 50%;
 		}
 		.c {
-			background: darkred;
+			background: $tertiary-color;
 			top: 2%;
 			right: 2%;
 			width: 42%;
 			height: 50%;
 		}
 		.d {
-			background: darkslategray;
+			background: $tertiary-color;
 			top: 30%;
 			left: 2%;
 			width: 30%;
 			height: 22%;
 		}
 		.e {
-			background: darkcyan;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 2%;
 			width: 24%;
 			height: 44%;
 		}
 		.f {
-			background: darkblue;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 28%;
 			width: 50%;
 			height: 44%;
 		}
 		.g {
-			background: darkorange;
+			background-color: #fff;
 			bottom: 30%;
 			right: 2%;
 			width: 18%;
 			height: 16%;
 		}
 		.h {
-			background: deepskyblue;
+			background: $tertiary-color;
 			bottom: 2%;
 			right: 2%;
 			width: 18%;
@@ -361,58 +461,56 @@ export default {
 			right: 6%;
 			width: 50%;
 		}
-		figure { position: absolute; }
 		.a {
-			background: darkmagenta;
+			background: $tertiary-color;
 			top: 2%;
 			left: 2%;
 			width: 30%;
-			height: 28%;
+			height: 32%;
 		}
 		.b {
-			background: darkolivegreen;
+			background: $tertiary-color;
 			top: 2%;
 			left: 34%;
 			width: 32%;
 			height: 50%;
 		}
 		.c {
-			background: darkred;
+			background: $tertiary-color;
 			top: 2%;
 			right: 2%;
 			width: 30%;
 			height: 66%;
 		}
 		.d {
-			background: darkslategray;
-			top: 32%;
+			top: 36%;
 			left: 2%;
 			width: 12%;
-			height: 20%;
+			height: 16%;
 		}
 		.e {
-			background: darkcyan;
-			top: 32%;
+			background: $tertiary-color;
+			top: 36%;
 			left: 15%;
 			width: 17%;
-			height: 20%;
+			height: 16%;
 		}
 		.f {
-			background: darkblue;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 2%;
 			width: 42%;
 			height: 44%;
 		}
 		.g {
-			background: darkorange;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 46%;
 			width: 20%;
 			height: 44%;
 		}
 		.h {
-			background: deepskyblue;
+			background: $tertiary-color;
 			bottom: 2%;
 			right: 2%;
 			width: 30%;
@@ -432,58 +530,56 @@ export default {
 			right: 6%;
 			width: 74%;
 		}
-		figure { position: absolute; }
 		.a {
-			background: darkmagenta;
+			background: $tertiary-color;
 			top: 2%;
 			left: 2%;
 			width: 44%;
 			height: 46%;
 		}
 		.b {
-			background: darkolivegreen;
+			background: $tertiary-color;
 			top: 2%;
 			left: 48%;
 			width: 12%;
 			height: 28%;
 		}
 		.c {
-			background: darkred;
 			top: 32%;
 			left: 48%;
 			width: 12%;
 			height: 16%;
 		}
 		.d {
-			background: darkslategray;
+			background: $tertiary-color;
 			top: 2%;
 			right: 2%;
 			width: 36%;
 			height: 56%;
 		}
 		.e {
-			background: darkcyan;
+			background: $tertiary-color;
 			top: 50%;
 			left: 2%;
 			width: 25%;
 			height: 16%;
 		}
 		.f {
-			background: darkblue;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 2%;
 			width: 25%;
 			height: 30%;
 		}
 		.g {
-			background: darkorange;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 28%;
 			width: 32%;
 			height: 48%;
 		}
 		.h {
-			background: deepskyblue;
+			background: $tertiary-color;
 			bottom: 2%;
 			right: 2%;
 			width: 36%;
@@ -503,51 +599,49 @@ export default {
 			left: 6%;
 			width: 74%;
 		}
-		figure { position: absolute; }
 		.a {
-			background: darkmagenta;
+			background: $tertiary-color;
 			top: 2%;
 			left: 2%;
 			width: 22%;
 			height: 54%;
 		}
 		.b {
-			background: darkolivegreen;
+			background: $tertiary-color;
 			top: 2%;
 			left: 26%;
 			width: 30%;
 			height: 54%;
 		}
 		.c {
-			background: darkred;
+			background: $tertiary-color;
 			top: 2%;
 			right: 24%;
 			width: 18%;
 			height: 32%;
 		}
 		.d {
-			background: darkslategray;
 			top: 36%;
 			right: 24%;
 			width: 18%;
 			height: 14%;
 		}
 		.e {
-			background: darkcyan;
+			background: $tertiary-color;
 			top: 2%;
 			right: 2%;
 			width: 20%;
 			height: 48%;
 		}
 		.f {
-			background: darkblue;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 2%;
 			width: 54%;
 			height: 40%;
 		}
 		.g {
-			background: darkorange;
+			background: $tertiary-color;
 			bottom: 2%;
 			right: 2%;
 			width: 40%;
@@ -567,44 +661,42 @@ export default {
 			right: 6%;
 			width: 74%;
 		}
-		figure { position: absolute; }
 		.a {
-			background: darkmagenta;
+			background: $tertiary-color;
 			top: 2%;
 			left: 2%;
 			width: 26%;
 			height: 50%;
 		}
 		.b {
-			background: darkolivegreen;
+			background: $tertiary-color;
 			top: 2%;
 			left: 30%;
 			width: 68%;
 			height: 34%;
 		}
 		.c {
-			background: darkred;
 			top: 38%;
 			left: 30%;
 			width: 12%;
 			height: 14%;
 		}
 		.d {
-			background: darkslategray;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 2%;
 			width: 40%;
 			height: 44%;
 		}
 		.e {
-			background: darkcyan;
+			background: $tertiary-color;
 			bottom: 2%;
 			left: 44%;
 			width: 32%;
 			height: 60%;
 		}
 		.f {
-			background: darkblue;
+			background: $tertiary-color;
 			bottom: 2%;
 			right: 2%;
 			width: 20%;
@@ -622,8 +714,7 @@ export default {
 	article {
 		padding: 4rem;
 	
-		h2,
-		h3,
+		h2, h3,
 		p { padding: 1rem 0; }
 		p { text-align: justify; }
 	}
@@ -651,15 +742,15 @@ export default {
 			}
 			path.a1 {
 				animation-delay: -1s;
-				-webkit-animation-delay: -1s; /* Safari 和 Chrome */
+				-webkit-animation-delay: -1s; /* Safari ~ Chrome */
 			}
 			path.a2 {
 				animation-delay: -0.5s;
-				-webkit-animation-delay: -0.5s; /* Safari 和 Chrome */
+				-webkit-animation-delay: -0.5s; /* Safari ~ Chrome */
 			}
 			path.a3 {	
 				animation-delay: 0s;
-				-webkit-animation-delay: 0s; /* Safari 和 Chrome */
+				-webkit-animation-delay: 0s; /* Safari ~ Chrome */
 			}
 		}
 	}
