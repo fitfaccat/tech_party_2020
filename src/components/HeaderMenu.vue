@@ -23,7 +23,7 @@
         <li><a href="#">INICIO</a></li>
         <li><a href="#schedule">PROGRAMAÇÃO</a></li>
         <li><a href="#subscribe">INSCRIÇÃO</a></li>
-        <li><a href="#">SOBRE</a></li>
+        <li><a href="#about">SOBRE</a></li>
         <li><a href="#sponsors">PARCEIROS</a></li>
         <li><a href="#local">LOCAL</a></li>    
       </ul>
