@@ -1,13 +1,13 @@
 /*
 	THEMES
 */
-$primary-color: #0E0B16;
+$primary-color: 	#0E0B16;
 $secundary-color: #E7DFDD;
-$tertiary-color: #E84C3D;
-$platinium: #D3D3D3;
-$gold: #BCA900;
-$silver: #949494;
-$bronze: #6B5400;
+$tertiary-color: 	#E84C3D;
+$platinium: 			#E5E4E2;
+$gold: 						#DAA520;
+$silver: 					#C0C0C0;
+$bronze: 					#CD7F32;
 
 $color-2014: white;
 $color-2015: #D0080F;
@@ -20,5 +20,17 @@ $color-2019: #2F2F9E;
 	ANIMATION
 */
 $transition-timing-function: cubic-bezier(.52,.41,.81,.09);
-$transition-duration: .1s;
-$transition-delay: .1s;
+$transition-duration: 			.1s;
+$transition-delay: 					.1s;
+
+/*
+	SPONSORS
+*/
+$rockstargames-color: #000;
+$alphabet-color: 			#fff;
+$apple-color: 				#000;
+$rocketchat-color:		#030c1a;
+$nintendo-color:			#e60012;
+$spacex-color:				#0b0b0b;
+$tencent-color: 			#000;
+$oracle-color:	 			#403c38;
