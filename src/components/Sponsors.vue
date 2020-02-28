@@ -1,24 +1,20 @@
 <template>
 	<section id="sponsors">
-		
 		<section id="becomeSponsor">
 			{{ sessionData.sessions[0].content[0].text }}
 			<span class="email">
 				{{ sessionData.sessions[0].content[1].text }}
 			</span>
 		</section>
-
 		<section
 			class="content-sponsor"
 			v-for="(category, id) in sessionData.sessions"
 			:key="id"
 			v-show="id > 0"
 		>
-
 			<div :id="category.id">
 				<h1>{{ category.name }}</h1>
 			</div>
-
 			<article
 				class="wrap-sponsor"
 				:class="`wrap-sponsor-${category.id}`"
@@ -30,176 +26,15 @@
 					<figure>
 						<img :src="sponsor.image" :alt="sponsor.title">
 					</figure>
-					
 					<div class="description">
 						<h2>{{ sponsor.title }}</h2>
 						<p>
 							{{ sponsor.text }}
 						</p>
 					</div>
-
 				</a>
 			</article>
-
 		</section>
-
-		<!-- <section id="conteinerPlatinum">
-
-				<h2>PLATINUM</h2>
-			
-				<div id="conteinerArticlePlatinum">
-					<article>
-						<div id="imagePlatinum">
-							<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg" alt="">
-						</div>
-						<div id="textPlatinum">
-							<h3>PADARIA DO SEU ZÈ</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>	
-						</div>
-					</article>
-				</div>
-				<div id="conteinerArticlePlatinum">
-					<article>
-						<div id="imagePlatinum">
-							<img src="https://coletivolirico.com.br/wp-content/uploads/2019/01/bach_home.jpg" alt="">
-						</div>
-						<div id="textPlatinum">
-							<h3>PADARIA DO SEU ZÈ</h3>
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>	
-						</div>
-					</article>
-				</div>
-		</section> -->
-		<!-- <section id="conteinerGold">
-			<h2>GOLD</h2>
-				<div id="conteinerGoldArticles">
-					<div id="conteinerArticleGold">
-						<article>
-							<div id="imageGold">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg" alt="">
-							</div>
-							<div id="textGold">
-								<h3>PADARIA DO SEU ZÈ</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>	
-							</div>
-						</article>
-					</div>
-					<div id="conteinerArticleGold">
-						<article>
-							<div id="imageGold">
-								<img src="https://coletivolirico.com.br/wp-content/uploads/2019/01/bach_home.jpg" alt="">
-							</div>
-							<div id="textGold">
-								<h3>PADARIA DO SEU ZÈ</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>	
-							</div>
-						</article>
-					</div>
-			</div>
-		</section>
-		<section id="conteinerSilver">
-			<h2>SILVER</h2>
-				<div id="conteinerSilverArticles">
-					<div id="conteinerArticleSilver">
-						<article>
-							<div id="imageSilver">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg" alt="">
-							</div>
-							<div id="textSilver">
-								<h3>PADARIA DO SEU ZÈ</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>	
-							</div>
-						</article>
-					</div>
-					<div id="conteinerArticleSilver">
-						<article>
-							<div id="imageSilver">
-								<img src="https://coletivolirico.com.br/wp-content/uploads/2019/01/bach_home.jpg" alt="">
-							</div>
-							<div id="textSilver">
-								<h3>PADARIA DO SEU ZÈ</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>	
-							</div>
-						</article>
-					</div>
-			</div>
-		</section>
-		<section id="conteinerBronze">
-			<h2>BRONZE</h2>
-				<div id="conteinerBronzeArticles">
-					<div id="conteinerArticleBronze">
-						<article>
-							<div id="imageBronze">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg" alt="">
-							</div>
-							<div id="textBronze">
-								<h3>PADARIA DO SEU ZÈ</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>	
-							</div>
-						</article>
-					</div>
-					<div id="conteinerArticleBronze">
-						<article>
-							<div id="imageBronze">
-								<img src="https://coletivolirico.com.br/wp-content/uploads/2019/01/bach_home.jpg" alt="">
-							</div>
-							<div id="textBronze">
-								<h3>PADARIA DO SEU ZÈ</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>	
-							</div>
-						</article>
-					</div>
-					<div id="conteinerArticleBronze">
-						<article>
-							<div id="imageBronze">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg" alt="">
-							</div>
-							<div id="textBronze">
-								<h3>PADARIA DO SEU ZÈ</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>	
-							</div>
-						</article>
-				</div>
-			</div>
-		</section>
-		<section id="conteinerSupport">
-			<h2>SUPPORT</h2>
-				<div id="conteinerSupportArticles">
-					<div id="conteinerArticleSupport">
-						<article>
-							<div id="imageSupport">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg" alt="">
-							</div>
-							<div id="textSupport">
-								<h3>PADARIA DO SEU ZÈ</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>	
-							</div>
-						</article>
-					</div>
-					<div id="conteinerArticleSupport">
-						<article>
-							<div id="imageSupport">
-								<img src="https://coletivolirico.com.br/wp-content/uploads/2019/01/bach_home.jpg" alt="">
-							</div>
-							<div id="textSupport">
-								<h3>PADARIA DO SEU ZÈ</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>	
-							</div>
-						</article>
-					</div>
-					<div id="conteinerArticleSupport">
-						<article>
-							<div id="imageSupport">
-								<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg" alt="">
-							</div>
-							<div id="textSupport">
-								<h3>PADARIA DO SEU ZÈ</h3>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>	
-							</div>
-						</article>
-				</div>
-			</div>
-		</section> -->
 	</section>
 </template>
 
@@ -231,9 +66,7 @@ export default {
 		text-align: center;
 		padding: 6rem 0 1rem 0;
 
-		.email {
-			color: blue;
-		}
+		.email { color: blue; }
 	}
 
 	.content-sponsor {
@@ -243,7 +76,6 @@ export default {
 		flex-wrap: wrap;
 
 		&:last-child {  margin-bottom: 10rem; }
-		
 		#platinium, #gold,
 		#silver, #bronze,
 		#apoio {
@@ -251,13 +83,11 @@ export default {
 			padding: 1rem;
 			margin-top: 2rem;
 		}
-		
 		#platinium { background: $platinium; }
 		#gold { background: $gold; }
 		#silver { background: $silver; }
 		#bronze { background: $bronze; }
 		#apoio { background: $tertiary-color; }
-
 		.wrap-sponsor {
 			background-color: $secundary-color;
 			margin: 0 1rem;
@@ -306,7 +136,6 @@ export default {
 				}
 			}
 		}
-
 		.wrap-sponsor-platinium { height: 350px; width: 90%; }
 		.wrap-sponsor-gold {
 			height: 300px;
@@ -326,7 +155,6 @@ export default {
 			a .description { padding: 1rem; }
 			h2 { font-size: 14px; }
 		}
-
 		#rockstargames {
 			figure { background: $rockstargames-color; }
 		}
@@ -351,237 +179,18 @@ export default {
 		#oracle {
 			figure { background: $oracle-color; }
 		}
+		#dell {
+			figure { background: $dell-color; }
+		}
+		#chucrechurros {
+			figure { background: $chucrechurros-color; }
+		}
+		#vigilianerd {
+			figure { background: $vigilianerd-color; }
+		}
+		#alibaba {
+			figure { background: $alibaba-color; }
+		}
 	}
 }
-
-
-// section{
-// background-color: $primary-color;
-// #becomeSponsor{
-// display: flex;
-// justify-content: space-around;
-// text-align: center;
-// height: 2.5rem;
-// padding: 2.5rem;
-// color: $secundary-color;
-// }
-// #conteinerPlatinum{			
-// h2{ 
-// width: 100%;
-// background-color: $platinium;
-// height: 2rem;
-// text-align: center;
-// justify-content: space-around;
-// }
-// #conteinerArticlePlatinum{	
-// display: flex;
-// background-color: $secundary-color;
-// height: calc(100vh*0.45);
-// padding: 1rem;
-// margin: 1rem;
-// article{
-// display: grid;
-// grid-template-columns: 1fr 2fr;
-// #imagePlatinum{
-// max-width: 450px;
-// max-height: 450px;
-// img{
-// max-width: 100%;
-// max-height: 100%;
-// }
-// }
-// #textPlatinum{
-// h3{
-// text-align: center;
-// justify-content: space-around;
-// font-size: 2rem;
-// margin-bottom: 1rem;
-// }
-// p{
-// align-content: center;
-// margin-right: 10px;
-// font-size:1rem;
-// }
-// }
-// }
-// }
-// }
-// #conteinerGold{			
-// h2{ 
-// width: 100%;
-// background-color: $gold;
-// height: 2rem;
-// text-align: center;
-// justify-content: space-around;
-// }
-// #conteinerGoldArticles{
-// display: grid;
-// grid-template-columns: 1fr 1fr;
-// #conteinerArticleGold{	
-// display: flex;
-// background-color: $secundary-color;
-// height: calc(100vh*0.35);
-// padding: 1rem;
-// margin: 1rem;
-// article{
-// display: grid;
-// grid-template-columns: 1fr 2fr;
-// #imageGold{
-// max-width: 400px;
-// max-height: 400px;
-// img{
-// max-width: 100%;
-// max-height: 100%;
-// }
-// }
-// #textGold{
-// h3{
-// text-align: center;
-// justify-content: space-around;
-// font-size: 1rem;
-// }
-// p{
-// align-content: center;
-// margin-left: 10px;
-// font-size: .7rem;
-// }
-// }
-// }
-// }
-// }
-// }
-// #conteinerSilver{			
-// h2{ 
-// width: 100%;
-// background-color: $silver;
-// height: 2rem;
-// text-align: center;
-// justify-content: space-around;
-// }
-// #conteinerSilverArticles{
-// display: grid;
-// grid-template-columns: 1fr 1fr;
-// #conteinerArticleSilver{
-// display: flex;
-// background-color: $secundary-color;
-// height: calc(100vh*0.25);
-// padding: 1rem;
-// margin: 1rem;
-// article{
-// display: grid;
-// grid-template-columns: 1fr 2fr;
-// #imageSilver{
-// max-width: 350px;
-// max-height: 350px;
-// img{
-// max-width: 100%;
-// max-height: 100%;
-// }
-// }
-// #textSilver{
-// h3{
-// text-align: center;
-// justify-content: space-around;
-// font-size: 1rem;
-// }
-// p{
-// align-content: center;
-// margin-left: 10px;
-// font-size: .7rem;
-// }
-// }
-// }
-// }
-// }
-// }
-// #conteinerBronze{			
-// h2{ 
-// width: 100%;
-// background-color: $bronze;
-// height: 2rem;
-// text-align: center;
-// justify-content: space-around;
-// }
-// #conteinerBronzeArticles{
-// display: grid;
-// grid-template-columns: 1fr 1fr 1fr;
-// #conteinerArticleBronze{
-// display: flex;
-// background-color: $secundary-color;
-// height: calc(100vh*0.20);
-// padding: 1rem;
-// margin: 1rem;
-// article{
-// display: grid;
-// grid-template-columns: 1fr 2fr;
-// #imageBronze{
-// max-width: 300px;
-// max-height: 300px;
-// img{
-// max-width: 100%;
-// max-height: 100%;
-// }
-// }
-// #textBronze{
-// h3{
-// text-align: center;
-// justify-content: space-around;
-// font-size: .8rem;
-// }
-// p{
-// align-content: center;
-// margin-left: 10px;
-// font-size: .5rem;
-// }
-// }
-// }
-// }
-// }
-// }
-// #conteinerSupport{			
-// h2{ 
-// width: 100%;
-// background-color: $tertiary-color;
-// height: 2rem;
-// text-align: center;
-// justify-content: space-around;
-// }
-// #conteinerSupportArticles{
-// display: grid;
-// grid-template-columns: 1fr 1fr 1fr;
-// #conteinerArticleSupport{
-// display: flex;
-// background-color: $secundary-color;
-// height: calc(100vh*0.20);
-// padding: 1rem;
-// margin: 1rem;
-// article{
-// display: grid;
-// grid-template-columns: 1fr 2fr;
-// #imageSupport{
-// max-width: 300px;
-// max-height: 300px;
-// img{
-// max-width: 100%;
-// max-height: 100%;
-// }
-// }
-// #textSupport{
-// h3{
-// text-align: center;
-// justify-content: space-around;
-// font-size: .8rem;
-// }
-// p{
-// align-content: center;
-// margin-left: 10px;
-// font-size: .5rem;
-// }
-// }
-// }
-// }
-// }
-// }
-// }
-	
 </style>
