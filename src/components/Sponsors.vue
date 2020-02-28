@@ -68,7 +68,6 @@ export default {
 
 		.email { color: blue; }
 	}
-
 	.content-sponsor {
 		display: flex;
 		align-items: center;
@@ -136,23 +135,30 @@ export default {
 				}
 			}
 		}
-		.wrap-sponsor-platinium { height: 350px; width: 90%; }
+		.wrap-sponsor-platinium {
+			height: $full-height;
+			width: 90%;
+		}
 		.wrap-sponsor-gold {
-			height: 300px;
+			height: ($full-height * 0.75); // 75%
 			width: 45%;
+
 			a .description { padding: 3rem; }
 		}
 		.wrap-sponsor-silver {
-			height: 225px;
+			height: ($full-height * 0.5); // 50%
 			width: 45%;
-			a .description { padding: 1rem; }
+
+			a .description { padding: 0 1rem; }
 		}
 		.wrap-sponsor-bronze,
 		.wrap-sponsor-apoio {
-			height: 150px;
+			height: ($full-height * 0.25); // 25%
 			width: 30%;
 			font-size: 14px;
-			a .description { padding: 1rem; }
+
+			a .description { padding: 0 1rem; }
+			a .description p {  padding: .5rem 0; }
 			h2 { font-size: 14px; }
 		}
 		#rockstargames {
