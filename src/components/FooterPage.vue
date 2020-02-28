@@ -41,11 +41,6 @@
 			</div>
 		</div>
 		</div>
-		<div id="footerGit">
-			<button>
-				tech_party_2020 <img src="../assets/GitHub-Mark-32px.png" alt="">
-			</button>
-		</div>
 	</footer>
 </template>
 
@@ -64,12 +59,14 @@ $transition-duration: .1s;
 $transition-delay: .1s;
 
 	footer{
-		height: 50vh;
+		height: 60vh;
+		padding: 1rem;
+		
 		.footer-informations{
 			display: grid;
-			height: 45vh;
 			background-color: $primary-color;
 			grid-template-columns: 1fr 1fr 1fr;
+			height: 100%;
 		
 		a{
 			color:$secundary-color;
@@ -82,7 +79,7 @@ $transition-delay: .1s;
 		h2{color:$secundary-color;}
 		h3{color:$secundary-color;}
 		
-		div{padding: 0.5rem 1rem;}
+		div{padding: .1rem;}
 		
 		#footerInformations{
 			align-content: center;
@@ -94,6 +91,7 @@ $transition-delay: .1s;
 			#footerSubscribe{
 				display: grid;
 				grid-template-rows: 1fr 1fr;
+					background-color: $primary-color;
 				
 				button{
 					width: 100%;
@@ -115,11 +113,13 @@ $transition-delay: .1s;
 			#footerAbout{
 				margin: 1rem 0 0 0 ;
 				display: grid;
+				background-color: $primary-color;
 				grid-template-rows: 1.5fr .75fr .75fr;
 			}
 		}
 		
 		#footerLinks{
+				background-color: $primary-color;
 			display: grid;
 			grid-template-rows: 1.3fr .5fr .5fr .5fr .5fr .5fr .5fr;
 			border-right: 1px solid $secundary-color;
@@ -136,9 +136,8 @@ $transition-delay: .1s;
 			align-content: center;
 			justify-content: space-around;
 			display: grid;
+			background-color: $primary-color;
 			grid-template-rows: 1fr 1fr 1fr;
-			
-/*			div{height: 33%;	}*/
 			
 			#socialShare{
 				display: grid;
@@ -159,34 +158,9 @@ $transition-delay: .1s;
 					margin: .5rem 2rem 0 0;
 				}
 			}
-			}
+		}
 			#socialMail{
 				
-			}
-		}
-		#footerGit{
-			align-items: center;
-			background-color: $primary-color;
-			
-			button{
-				padding: 5px;
-				background-color: transparent;
-				color:black;
-				float: right;
-				align-content: center;
-				margin-right: 1rem;
-				img {
-					width:32px;
-					vertical-align: middle;
-				}
-				transition:
-            background-color
-            $transition-duration
-            $transition-timing-function;
-				
-				&:hover{
-					background-color: $secundary-color;
-				}
 			}
 		}
 	}
