@@ -271,10 +271,10 @@ export default {
 @import './../assets/sass/variables.scss';
 
 #about {
-	background: $secundary-color;
 	color: $primary-color;
 	width: 100%;
 
+	article { background: $secundary-color; }
 	.images {
 		height: 100%;
 		width: 100%;
