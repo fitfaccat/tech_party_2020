@@ -38,25 +38,25 @@
 					</p>
 				</div>
 				<figure class="a">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2014/00b7984c0a6ce00120a15c723fa9218f.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="b">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2014/285e67103232c9814b78459098174bce.jpg" class="" alt="">
 				</figure>
 				<figure class="c">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2014/a4334aaa24ff619dca140302f9ee3726.jpg" class="" alt="">
 				</figure>
 				<figure class="d">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2014/ae5da5c319de0979c2662abea4ec9c36.jpg" class="" alt="">
 				</figure>
 				<figure class="e">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2014/cd52a6b75a7c14ca29fa9268e19775a2.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="f">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2014/e9e2e967a46aaa1ae4a0978d1a200232.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="g">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2014/f9add2d82a305f89bd1564ed1ef1838c.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="h">
 					<img src="./../assets/tech-party-old.png" class="img-logo" alt="">
@@ -79,28 +79,28 @@
 					</p>
 				</div>
 				<figure class="a">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2015/00dbef3cb91f93fb90d19eeef1eb8391.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="b">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2015/40eec2377aac22a89672d9d4e8d8d54b.jpg" class="" alt="">
 				</figure>
 				<figure class="c">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2015/60a6aef2fd2f94c5bad966b589025978.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="d">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2015/b7098807de6a9c3743270aefb78ccff1.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="e">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2015/bc67ec48ad1642f2f80b15ba67382691.jpg" class="" alt="">
 				</figure>
 				<figure class="f">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2015/e31ca42a463292d5ddffb493cb1d4725.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="g">
 					<img src="./../assets/tech-party-old.png" class="img-logo" alt="">
 				</figure>
 				<figure class="h">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2015/f52e0290edcc9cb596567553a51dc471.jpg" class="" alt="">
 				</figure>
 			</div>
 		</gallery>
@@ -155,28 +155,28 @@
 					</p>
 				</div>
 				<figure class="a">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2017/4e1c60dfb7f134f0c374a91b26985bb5.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="b">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2017/0c40c7eba63e21e53af8f7f4cb422359.jpg" class="" alt="">
 				</figure>
 				<figure class="c">
 					<img src="./../assets/tech-party.png" class="img-logo" alt="">
 				</figure>
 				<figure class="d">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2017/abaaf685db8cb4bbb5d79a4f38ecbf37.jpg" class="" alt="">
 				</figure>
 				<figure class="e">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2017/b9b3f1a6dcf36a0c8621edba6b767c46.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="f">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2017/cb20b96d3d1bcf401b26cf66bc11b008.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="g">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2017/e0d7d989b5e98f2711c866ae4a0bbbac.jpg" class="" alt="">
 				</figure>
 				<figure class="h">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2017/eb7a070c3c39d4038fdb96fbd7d5979d.jpg" class="img-width" alt="">
 				</figure>
 			</div>
 		</gallery>
@@ -193,25 +193,25 @@
 					</p>
 				</div>
 				<figure class="a">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2018/6c7506228653bbd1e2f4e7e5723a74ca.jpg" class="" alt="">
 				</figure>
 				<figure class="b">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2018/25a8e8afef2ffe3c01018dbeb21a37dc.jpg" class="" alt="">
 				</figure>
 				<figure class="c">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2018/0541c90cb502c3b26419a9cc93572dc0.jpg" class="" alt="">
 				</figure>
 				<figure class="d">
 					<img src="./../assets/tech-party.png" class="img-logo" alt="">
 				</figure>
 				<figure class="e">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2018/94e3ea45a0c15b831393bc739c8c9c7a.jpg" class="" alt="">
 				</figure>
 				<figure class="f">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2018/c8e8962c4a346495c4cd1d8ff0156a06.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="g">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2018/eb7a070c3c39d4038fdb96fbd7d5979d.jpg" class="img-width" alt="">
 				</figure>
 			</div>
 		</gallery>
@@ -228,22 +228,22 @@
 					</p>
 				</div>
 				<figure class="a">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2019/b63c1ba878788cc5a7139e17bb7553ef.jpg" class="" alt="">
 				</figure>
 				<figure class="b">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2019/f6db278a2107ea92ff02102684f59208.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="c">
 					<img src="./../assets/tech-party.png" class="img-logo" alt="">
 				</figure>
 				<figure class="d">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2019/49ddef57b6297548a1948280b0dad655.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="e">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2019/33fb03a3f86f7bf6eab9af70d51429ca.jpg" class="" alt="">
 				</figure>
 				<figure class="f">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2019/03e1355848194205226f0daa6d2314fb.jpg" class="" alt="">
 				</figure>
 			</div>
 		</gallery>
@@ -281,7 +281,6 @@ export default {
 		padding: 1rem;
 		position: relative;
 	}
-
 	.text,
 	.title {
 		background: #ffffffbb;
@@ -710,7 +709,6 @@ export default {
 		background: $primary-color;
 		color: $secundary-color;
 	}
-
 	article {
 		padding: 4rem;
 	
