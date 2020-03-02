@@ -51,12 +51,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$primary-color: #0E0B16;
-$secundary-color: #E7DFDD;
-	
-$transition-timing-function: cubic-bezier(.52,.41,.81,.09);
-$transition-duration: .1s;
-$transition-delay: .1s;
+@import './../assets/sass/variables.scss';
 
 	footer{
 		height: 60vh;
@@ -159,7 +154,27 @@ $transition-delay: .1s;
 				}
 			}
 		}
-			#socialMail{
+
+		#socialMail{
+		#footerGit{
+			align-items: center;
+			background-color: $primary-color;
+			
+			button{
+				padding: 5px;
+				background-color: transparent;
+				color:$primary-color;
+				float: right;
+				align-content: center;
+				margin-right: 1rem;
+				img {
+					width:32px;
+					vertical-align: middle;
+				}
+				transition:
+            background-color
+            $transition-duration
+            $transition-timing-function;
 				
 			}
 		}

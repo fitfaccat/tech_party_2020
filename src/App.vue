@@ -6,6 +6,7 @@
     <Schedule />
     <Speakers />
     <Subscribe />
+    <About />
     <Sponsors />
     <Churras />
     <Local />
@@ -21,6 +22,7 @@ import Banner from './components/Banner.vue';
 import Schedule from './components/Schedule.vue';
 import Speakers from './components/Speakers.vue';
 import Subscribe from './components/Subscribe.vue';
+import About from './components/About';
 import Sponsors from './components/Sponsors.vue'
 import Churras from './components/Churras.vue';
 import Local from './components/Local.vue';
@@ -34,6 +36,7 @@ export default {
     Banner,
     Speakers,
     Subscribe,
+    About,
     Sponsors,
     Churras,
     Local,
@@ -43,6 +46,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import './assets/sass/variables.scss';
+
 * {
   padding: 0;
   margin: 0;
@@ -56,7 +61,7 @@ html, body { height: 100vh; }
 
 #app {
   width: 100%;
-  background-color: #0E0B16;
+  background-color: $primary-color;
 
   a { text-decoration: none; }
 }

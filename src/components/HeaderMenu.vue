@@ -21,11 +21,11 @@
         :class="{ openMenu: activeMenu }"
       >
         <li><a href="#">INICIO</a></li>
-        <li><a href="#speakers">PROGRAMAÇÃO</a></li>
-        <li><a href="#">INSCRIÇÃO</a></li>
-        <li><a href="#">SOBRE</a></li>
-        <li><a href="#">PARCEIROS</a></li>
-        <li><a href="#">LOCAL</a></li>    
+        <li><a href="#schedule">PROGRAMAÇÃO</a></li>
+        <li><a href="#subscribe">INSCRIÇÃO</a></li>
+        <li><a href="#about">SOBRE</a></li>
+        <li><a href="#sponsors">PARCEIROS</a></li>
+        <li><a href="#local">LOCAL</a></li>    
       </ul>
     </nav>
     <div class="gradient-bottom"></div>
@@ -64,12 +64,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
-$primary-color: #0E0B16;
-$secundary-color: #E7DFDD;
-
-$transition-timing-function: cubic-bezier(.52,.41,.81,.09);
-$transition-duration: .1s;
-$transition-delay: .1s;
+@import './../assets/sass/variables.scss';
 
 header {
   display: flex;
@@ -158,7 +153,7 @@ header {
         flex-direction: column;
         width: 64%;
         height: 100vh;
-        background: #e84c3d;
+        background: $tertiary-color;
         position: absolute;
         top: 0;
         right: 0;
@@ -203,7 +198,7 @@ header {
         padding: 0 1rem;
         border: 0;
         border-radius: .5rem;
-        background: #e84c3d;
+        background: $tertiary-color;
         margin: .7rem 1rem;
         height: 2.5rem;
         z-index: 100;
@@ -217,7 +212,7 @@ header {
           path {
             fill: none;
             stroke-width: 8;
-            stroke: white;
+            stroke: $secundary-color;
             transition: 0.4s;
           }
         }
@@ -245,6 +240,6 @@ header {
   100% { transform: rotate(360deg); }
 }
 @keyframes logglow {
-  100% { box-shadow: 0 0 5px 2px #e84c3d; }
+  100% { box-shadow: 0 0 5px 2px $tertiary-color; }
 }
 </style>
