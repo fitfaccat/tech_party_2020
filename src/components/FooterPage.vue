@@ -99,7 +99,7 @@ footer {
 	a { color: $secundary-color; }
 	img { width: 32px; margin-right: .5rem; }
 	.content {
-		height: 40vh;
+		height: 50vh;
 		display: flex;
 
 		article {
