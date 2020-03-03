@@ -101,10 +101,11 @@ footer {
 	.content {
 		height: 50vh;
 		display: flex;
+		align-items: center;
 
 		article {
 			flex: 1;
-			padding: 2rem 2rem 0 2rem;
+			padding: 0 2rem;
 			
 			.link-access {
 				margin: .25rem 0;
@@ -143,11 +144,12 @@ footer {
 			.share-social {
 				margin-bottom: 1rem;
 				display: flex;
-				justify-content: space-between;
 
 				a {
 					display: flex;
 					align-items: center;
+
+					span { margin-right: 1rem; }
 				}
 				.small {
 					width: 16px;
