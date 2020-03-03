@@ -10,13 +10,13 @@
 				<h2>{{ name }}</h2>
 				<div class="social-links-content">
 					<a href="#" class="social-links-items">
-						<img src="../../assets/f_logo_RGB-Blue_58.png" alt="Facebook">
+						<img src="../../assets/facebook-2020.png" alt="Facebook">
 					</a>
 					<a href="#" class="social-links-items">
-						<img src="../../assets/linkedin.png" alt="LinkedIn">
+						<img src="../../assets/linkedin-2020.png" alt="linkedin-2020">
 					</a>
 					<a href="#" class="social-links-items">
-						<img src="../../assets/Twitter_Social_Icon_Circle_Color.png" alt="Twiiter">
+						<img src="../../assets/twiiter-2020.png" alt="Twiiter">
 					</a>
 				</div>
 			</div>

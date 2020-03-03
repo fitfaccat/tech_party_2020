@@ -44,24 +44,24 @@
 				<h3>Compartilhe</h3>
 				<div class="share-social">
 					<a href="https://www.facebook.com/sharer.php?u=https://www.facebook.com/techpartyfaccat/" class="link-access" target="_blank">
-						<img class="small" src="../assets/f_logo_RGB-Blue_58.png" alt="">
+						<img class="small" src="../assets/facebook-2020.png" alt="">
 						<span>@techpartyfaccat</span>
 					</a>
 					<a href="https://twitter.com/share?url=https://twitter.com/techpartyfaccat&text=T%C3%B4%20na%20Faccat%20curtindo%20e%20aprendendo%20na" class="link-access" target="_blank">
-						<img class="small" src="../assets/Twitter_Social_Icon_Circle_Color.png" alt="">
+						<img class="small" src="../assets/twiiter-2020.png" alt="">
 						<span>@techpartyfaccat</span>
 					</a>
 				</div>
 				<h3>Siga-nos</h3>
 				<div class="share-social share">
 					<a href="https://www.facebook.com/techpartyfaccat/" target="_blank">
-						<img src="../assets/f_logo_RGB-Blue_58.png" alt="">
+						<img src="../assets/facebook-2020.png" alt="">
 					</a>
 					<a href="https://twitter.com/techpartyfaccat" target="_blank">
-						<img src="../assets/Twitter_Social_Icon_Circle_Color.png" alt="">
+						<img src="../assets/twiiter-2020.png" alt="">
 					</a>
 					<a href="https://www.youtube.com/playlist?list=PLkLwxRNpclbghZcA2PYzLyAbvKR3qZuam" target="_blank">
-						<img src="../assets/youtube_social_circle_red.png" alt="">
+						<img src="../assets/youtube-2020.png" alt="">
 					</a>
 				</div>
 				<div class="share-social share">
@@ -76,7 +76,7 @@
 			<img src="../assets/tech-party.png" alt="">
 			<a href="https://github.com/fitfaccat/tech_party_2020" target="_blank">
 				<span>tech_party_2020</span>
-				<img src="../assets/GitHub-Mark-32px.png" alt="">
+				<img src="../assets/github-2020.png" alt="">
 			</a>
 		</section>
 	</footer>
