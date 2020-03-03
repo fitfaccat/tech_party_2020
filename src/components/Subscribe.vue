@@ -1,22 +1,18 @@
 <template>
 	<section id="subscribe">
 		<h2>Agora te inscreve aí tchê...</h2>
-
 		<section>
 			<article>
-				<a href="#">QUERO ME INSCREVER</a>
+				<a href="https://saga2.faccat.br/index.php?op=1068&chave=1739&portal=E" target="_blank">QUERO ME INSCREVER</a>
 			</article>
-			<div class="line">
-
-			</div>
+			<div class="line"></div>
 			<article>
 				<img src="https://cdljoinville.jv200.net/wp-content/uploads/sites/189/2018/02/%C3%8Dcone-Certificado-Digital.png" alt="Certificado">
 				<p>
-					Neste sentido, a constante divulgação das informações desafia a capacidade de equalização do levantamento das variáveis envolvidas.
+					Após alguns dias do término do evento, cada participante inscrito e com presença confirmada (assinatura na lista de presença), receberá um e-mail com um link onde poderá fazer o download do seu Certificado de Participação!
 				</p>
 			</article>
 		</section>
-
 	</section>
 </template>
 

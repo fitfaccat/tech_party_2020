@@ -7,7 +7,7 @@
 			<Countdown
 				dateEvent="1588015800000"
 			/>
-			<a href="#">INSCREVA-SE</a>
+			<a href="https://saga2.faccat.br/index.php?op=1068&chave=1739&portal=E" target="_blank">INSCREVA-SE</a>
 		</article>
 	</section>
 </template>
