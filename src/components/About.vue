@@ -23,43 +23,145 @@
 			</aside>
 		</article>
 
-		<gallery class="bg-2014">
+		<gallery class="bg-2019">
 			<div class="images">
 				<div class="title">
-					<h2>2014</h2>
-					<h3>Vira um evento anual</h3>
+					<h2>2019</h2>
+					<h3>As mulheres são maioria</h3>
 				</div>
 				<div class="text">
 					<p>
-						Em 2014, estudantes da instituição com o objetivo de oferecer conhecimento para o maior número de pessoas, optam por retornar com o evento, mas agora com organização diferenciada.
-					</p>
-					<p>
-						TechParty passou a ser um evento anual, com duração de uma semana inteira, com duas talks (apresentações) por noite e coffee break atraente a fim de estimular a interação das pessoas e o networking. Mantendo a proposta de contar com palestrantes da faculdade e convidados externos, mas sempre com assuntos interessantes e atuais, o evento teve um salto no número de participantes com esse novo formato, ultrapassando 700 pessoas (somadas as 5 noites), entre alunos, ex-alunos, pessoas da comunidade, alunos de escolas da região e representantes de muitas empresas da área de atuação da Faccat.
+						Em 2019, continuamos trabalhando para fazer um evento atrativo e que valha a pena ser visitado. A ótima novidade e que sem dúvida merece ser registrada na história do evento, é que pela primeira vez teremos mulheres entre os palestrantes: cinco (de um total de nove palestrantes), são mulheres. Infelizmente, por um conjunto de acasos que não esperamos que volte a ocorrer, nas edições anteriores nunca uma mulher havia estado em nossos palcos. Mas neste ano as mulheres são maioria.
 					</p>
 				</div>
 				<figure class="a">
-					<img src="gallery/2014/00b7984c0a6ce00120a15c723fa9218f.jpg" class="img-width" alt="">
+					<img src="gallery/2019/b63c1ba878788cc5a7139e17bb7553ef.jpg" class="" alt="">
 				</figure>
 				<figure class="b">
-					<img src="gallery/2014/285e67103232c9814b78459098174bce.jpg" class="" alt="">
+					<img src="gallery/2019/f6db278a2107ea92ff02102684f59208.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="c">
-					<img src="gallery/2014/a4334aaa24ff619dca140302f9ee3726.jpg" class="" alt="">
+					<img src="./../assets/tech-party.png" class="img-logo" alt="">
 				</figure>
 				<figure class="d">
-					<img src="gallery/2014/ae5da5c319de0979c2662abea4ec9c36.jpg" class="" alt="">
+					<img src="gallery/2019/49ddef57b6297548a1948280b0dad655.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="e">
-					<img src="gallery/2014/cd52a6b75a7c14ca29fa9268e19775a2.jpg" class="img-width" alt="">
+					<img src="gallery/2019/33fb03a3f86f7bf6eab9af70d51429ca.jpg" class="" alt="">
 				</figure>
 				<figure class="f">
-					<img src="gallery/2014/e9e2e967a46aaa1ae4a0978d1a200232.jpg" class="img-width" alt="">
+					<img src="gallery/2019/03e1355848194205226f0daa6d2314fb.jpg" class="" alt="">
+				</figure>
+			</div>
+		</gallery>
+
+		<gallery class="bg-2018">
+			<div class="images">
+				<div class="title">
+					<h2>2018</h2>
+					<h3>Estreiamos no Centro de Eventos da Faccat</h3>
+				</div>
+				<div class="text">
+					<p>
+						2018, mais uma grande evolução: o evento passa a acontecer no novo Centro de Eventos da Faccat, um prédio bonito, moderno e com muito mais espaço. Isso permitiu aos patrocinadores exporem produtos e montar estandes, deixando o evento mais atrativo para os participantes. Esse foi mais um ano onde o grande número de patrocinadores mostrou a consolidação do evento dentro da comunidade, cujas empresas regionais e de fora confiam e investem para exporem suas marcas e, principalmente, colaboram de maneira fundamental para que o evento ocorra da melhor forma para os participantes.
+					</p>
+				</div>
+				<figure class="a">
+					<img src="gallery/2018/6c7506228653bbd1e2f4e7e5723a74ca.jpg" class="" alt="">
+				</figure>
+				<figure class="b">
+					<img src="gallery/2018/25a8e8afef2ffe3c01018dbeb21a37dc.jpg" class="" alt="">
+				</figure>
+				<figure class="c">
+					<img src="gallery/2018/0541c90cb502c3b26419a9cc93572dc0.jpg" class="" alt="">
+				</figure>
+				<figure class="d">
+					<img src="./../assets/tech-party.png" class="img-logo" alt="">
+				</figure>
+				<figure class="e">
+					<img src="gallery/2018/94e3ea45a0c15b831393bc739c8c9c7a.jpg" class="" alt="">
+				</figure>
+				<figure class="f">
+					<img src="gallery/2018/c8e8962c4a346495c4cd1d8ff0156a06.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="g">
-					<img src="gallery/2014/f9add2d82a305f89bd1564ed1ef1838c.jpg" class="img-width" alt="">
+					<img src="gallery/2018/eb7a070c3c39d4038fdb96fbd7d5979d.jpg" class="img-width" alt="">
+				</figure>
+			</div>
+		</gallery>
+
+		<gallery class="bg-2017">
+			<div class="images">
+				<div class="title">
+					<h2>2017</h2>
+					<h3>O evento está consolidado na comunidade e entre os apoiadores</h3>
+				</div>
+				<div class="text">
+					<p>
+						Em 2017 o evento foi um sucesso como todos os outros anos. Batemos mais um recorde em presenças e contamos com palestrantes de primeiríssmo nível: desenvolvedores, empreendedores, psicólogos (sim! falando sobre uso de games eletrônicos para superação de traumas), gamers, diretores e ninjas em IA. Mais uma vez foi possível contar com o patrocínio de empresas excepcionais que ajudam MUITO o evento acontecer. Muito obrigado Senac, LoopHOST, Rocket.Chat, Umbler, FlyByte, Infisc Inteligência Fiscal, Bela Viagem, Sanvitron, CR Sistemas e Web e Jorge Bischoff.
+					</p>
+				</div>
+				<figure class="a">
+					<img src="gallery/2017/4e1c60dfb7f134f0c374a91b26985bb5.jpg" class="img-width" alt="">
+				</figure>
+				<figure class="b">
+					<img src="gallery/2017/0c40c7eba63e21e53af8f7f4cb422359.jpg" class="" alt="">
+				</figure>
+				<figure class="c">
+					<img src="./../assets/tech-party.png" class="img-logo" alt="">
+				</figure>
+				<figure class="d">
+					<img src="gallery/2017/abaaf685db8cb4bbb5d79a4f38ecbf37.jpg" class="" alt="">
+				</figure>
+				<figure class="e">
+					<img src="gallery/2017/b9b3f1a6dcf36a0c8621edba6b767c46.jpg" class="img-width" alt="">
+				</figure>
+				<figure class="f">
+					<img src="gallery/2017/cb20b96d3d1bcf401b26cf66bc11b008.jpg" class="img-width" alt="">
+				</figure>
+				<figure class="g">
+					<img src="gallery/2017/e0d7d989b5e98f2711c866ae4a0bbbac.jpg" class="" alt="">
 				</figure>
 				<figure class="h">
-					<img src="./../assets/tech-party-old.png" class="img-logo" alt="">
+					<img src="gallery/2017/eb7a070c3c39d4038fdb96fbd7d5979d.jpg" class="img-width" alt="">
+				</figure>
+			</div>
+		</gallery>
+
+		<gallery class="bg-2016">
+			<div class="images">
+				<div class="title">
+					<h2>2016</h2>
+					<h3>Um grande crescimento</h3>
+				</div>
+				<div class="text">
+					<p>
+						2016, seguimos crescendo! Nesse ano, queríamos buscar profissionais de empresas conhecidas nacionalmente e do exterior. Como sempre, foram realizadas talks realmente incríveis e conseguimos profissionais de empresas renomadas, como Red Hat, Rocket.Chat, We Heart It, SAP, Mozilla, Terra, Arezzo, CWI Software.
+					</p>
+				</div>
+				<figure class="a">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="b">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="c">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="d">
+					<img src="./../assets/tech-party.png" class="img-logo" alt="">
+				</figure>
+				<figure class="e">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="f">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
+				</figure>
+				<figure class="g">
+					<img src="https://picsum.photos/600" class="" alt="">
+				</figure>
+				<figure class="h">
+					<img src="https://picsum.photos/600" class="img-width" alt="">
 				</figure>
 			</div>
 		</gallery>
@@ -105,145 +207,43 @@
 			</div>
 		</gallery>
 
-		<gallery class="bg-2016">
+		<gallery class="bg-2014">
 			<div class="images">
 				<div class="title">
-					<h2>2016</h2>
-					<h3>Um grande crescimento</h3>
+					<h2>2014</h2>
+					<h3>Vira um evento anual</h3>
 				</div>
 				<div class="text">
 					<p>
-						2016, seguimos crescendo! Nesse ano, queríamos buscar profissionais de empresas conhecidas nacionalmente e do exterior. Como sempre, foram realizadas talks realmente incríveis e conseguimos profissionais de empresas renomadas, como Red Hat, Rocket.Chat, We Heart It, SAP, Mozilla, Terra, Arezzo, CWI Software.
+						Em 2014, estudantes da instituição com o objetivo de oferecer conhecimento para o maior número de pessoas, optam por retornar com o evento, mas agora com organização diferenciada.
+					</p>
+					<p>
+						TechParty passou a ser um evento anual, com duração de uma semana inteira, com duas talks (apresentações) por noite e coffee break atraente a fim de estimular a interação das pessoas e o networking. Mantendo a proposta de contar com palestrantes da faculdade e convidados externos, mas sempre com assuntos interessantes e atuais, o evento teve um salto no número de participantes com esse novo formato, ultrapassando 700 pessoas (somadas as 5 noites), entre alunos, ex-alunos, pessoas da comunidade, alunos de escolas da região e representantes de muitas empresas da área de atuação da Faccat.
 					</p>
 				</div>
 				<figure class="a">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2014/00b7984c0a6ce00120a15c723fa9218f.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="b">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2014/285e67103232c9814b78459098174bce.jpg" class="" alt="">
 				</figure>
 				<figure class="c">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2014/a4334aaa24ff619dca140302f9ee3726.jpg" class="" alt="">
 				</figure>
 				<figure class="d">
-					<img src="./../assets/tech-party.png" class="img-logo" alt="">
+					<img src="gallery/2014/ae5da5c319de0979c2662abea4ec9c36.jpg" class="" alt="">
 				</figure>
 				<figure class="e">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2014/cd52a6b75a7c14ca29fa9268e19775a2.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="f">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2014/e9e2e967a46aaa1ae4a0978d1a200232.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="g">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2014/f9add2d82a305f89bd1564ed1ef1838c.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="h">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
-				</figure>
-			</div>
-		</gallery>
-
-		<gallery class="bg-2017">
-			<div class="images">
-				<div class="title">
-					<h2>2017</h2>
-					<h3>O evento está consolidado na comunidade e entre os apoiadores</h3>
-				</div>
-				<div class="text">
-					<p>
-						Em 2017 o evento foi um sucesso como todos os outros anos. Batemos mais um recorde em presenças e contamos com palestrantes de primeiríssmo nível: desenvolvedores, empreendedores, psicólogos (sim! falando sobre uso de games eletrônicos para superação de traumas), gamers, diretores e ninjas em IA. Mais uma vez foi possível contar com o patrocínio de empresas excepcionais que ajudam MUITO o evento acontecer. Muito obrigado Senac, LoopHOST, Rocket.Chat, Umbler, FlyByte, Infisc Inteligência Fiscal, Bela Viagem, Sanvitron, CR Sistemas e Web e Jorge Bischoff.
-					</p>
-				</div>
-				<figure class="a">
-					<img src="gallery/2017/4e1c60dfb7f134f0c374a91b26985bb5.jpg" class="img-width" alt="">
-				</figure>
-				<figure class="b">
-					<img src="gallery/2017/0c40c7eba63e21e53af8f7f4cb422359.jpg" class="" alt="">
-				</figure>
-				<figure class="c">
-					<img src="./../assets/tech-party.png" class="img-logo" alt="">
-				</figure>
-				<figure class="d">
-					<img src="gallery/2017/abaaf685db8cb4bbb5d79a4f38ecbf37.jpg" class="" alt="">
-				</figure>
-				<figure class="e">
-					<img src="gallery/2017/b9b3f1a6dcf36a0c8621edba6b767c46.jpg" class="img-width" alt="">
-				</figure>
-				<figure class="f">
-					<img src="gallery/2017/cb20b96d3d1bcf401b26cf66bc11b008.jpg" class="img-width" alt="">
-				</figure>
-				<figure class="g">
-					<img src="gallery/2017/e0d7d989b5e98f2711c866ae4a0bbbac.jpg" class="" alt="">
-				</figure>
-				<figure class="h">
-					<img src="gallery/2017/eb7a070c3c39d4038fdb96fbd7d5979d.jpg" class="img-width" alt="">
-				</figure>
-			</div>
-		</gallery>
-
-		<gallery class="bg-2018">
-			<div class="images">
-				<div class="title">
-					<h2>2018</h2>
-					<h3>Estreiamos no Centro de Eventos da Faccat</h3>
-				</div>
-				<div class="text">
-					<p>
-						2018, mais uma grande evolução: o evento passa a acontecer no novo Centro de Eventos da Faccat, um prédio bonito, moderno e com muito mais espaço. Isso permitiu aos patrocinadores exporem produtos e montar estandes, deixando o evento mais atrativo para os participantes. Esse foi mais um ano onde o grande número de patrocinadores mostrou a consolidação do evento dentro da comunidade, cujas empresas regionais e de fora confiam e investem para exporem suas marcas e, principalmente, colaboram de maneira fundamental para que o evento ocorra da melhor forma para os participantes.
-					</p>
-				</div>
-				<figure class="a">
-					<img src="gallery/2018/6c7506228653bbd1e2f4e7e5723a74ca.jpg" class="" alt="">
-				</figure>
-				<figure class="b">
-					<img src="gallery/2018/25a8e8afef2ffe3c01018dbeb21a37dc.jpg" class="" alt="">
-				</figure>
-				<figure class="c">
-					<img src="gallery/2018/0541c90cb502c3b26419a9cc93572dc0.jpg" class="" alt="">
-				</figure>
-				<figure class="d">
-					<img src="./../assets/tech-party.png" class="img-logo" alt="">
-				</figure>
-				<figure class="e">
-					<img src="gallery/2018/94e3ea45a0c15b831393bc739c8c9c7a.jpg" class="" alt="">
-				</figure>
-				<figure class="f">
-					<img src="gallery/2018/c8e8962c4a346495c4cd1d8ff0156a06.jpg" class="img-width" alt="">
-				</figure>
-				<figure class="g">
-					<img src="gallery/2018/eb7a070c3c39d4038fdb96fbd7d5979d.jpg" class="img-width" alt="">
-				</figure>
-			</div>
-		</gallery>
-
-		<gallery class="bg-2019">
-			<div class="images">
-				<div class="title">
-					<h2>2019</h2>
-					<h3>As mulheres são maioria</h3>
-				</div>
-				<div class="text">
-					<p>
-						Em 2019, continuamos trabalhando para fazer um evento atrativo e que valha a pena ser visitado. A ótima novidade e que sem dúvida merece ser registrada na história do evento, é que pela primeira vez teremos mulheres entre os palestrantes: cinco (de um total de nove palestrantes), são mulheres. Infelizmente, por um conjunto de acasos que não esperamos que volte a ocorrer, nas edições anteriores nunca uma mulher havia estado em nossos palcos. Mas neste ano as mulheres são maioria.
-					</p>
-				</div>
-				<figure class="a">
-					<img src="gallery/2019/b63c1ba878788cc5a7139e17bb7553ef.jpg" class="" alt="">
-				</figure>
-				<figure class="b">
-					<img src="gallery/2019/f6db278a2107ea92ff02102684f59208.jpg" class="img-width" alt="">
-				</figure>
-				<figure class="c">
-					<img src="./../assets/tech-party.png" class="img-logo" alt="">
-				</figure>
-				<figure class="d">
-					<img src="gallery/2019/49ddef57b6297548a1948280b0dad655.jpg" class="img-width" alt="">
-				</figure>
-				<figure class="e">
-					<img src="gallery/2019/33fb03a3f86f7bf6eab9af70d51429ca.jpg" class="" alt="">
-				</figure>
-				<figure class="f">
-					<img src="gallery/2019/03e1355848194205226f0daa6d2314fb.jpg" class="" alt="">
+					<img src="./../assets/tech-party-old.png" class="img-logo" alt="">
 				</figure>
 			</div>
 		</gallery>
@@ -251,7 +251,6 @@
 		<gallery class="bg-2020">
 			<h2>2020 será inesquecível!</h2>
 		</gallery>
-
 
 	</section>
 </template>
@@ -310,7 +309,6 @@ export default {
 			height: 100%;
 		}
 	}
-
 	.bg-2014 {
 		background: $color-2014;
 
@@ -752,7 +750,6 @@ export default {
 			}
 		}
 	}
-
 }
 
 @keyframes arrow {
