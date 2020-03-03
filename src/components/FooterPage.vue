@@ -3,7 +3,7 @@
 		<section class="content">
 			<article>
 				<h2>TechParty 2020</h2>
-				<a href="#" class="subscribe" target="_blank">
+				<a href="https://saga2.faccat.br/index.php?op=1068&chave=1739&portal=E" class="subscribe" target="_blank">
 					<button>
 						INSCREVA-SE
 					</button>
