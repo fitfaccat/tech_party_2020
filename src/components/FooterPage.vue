@@ -41,11 +41,6 @@
 			</div>
 		</div>
 		</div>
-		<div id="footerGit">
-			<button>
-				tech_party_2020 <img src="../assets/GitHub-Mark-32px.png" alt="">
-			</button>
-		</div>
 	</footer>
 </template>
 
@@ -59,12 +54,14 @@ export default {
 @import './../assets/sass/variables.scss';
 
 	footer{
-		height: 50vh;
+		height: 60vh;
+		padding: 1rem;
+		
 		.footer-informations{
 			display: grid;
-			height: 45vh;
 			background-color: $primary-color;
 			grid-template-columns: 1fr 1fr 1fr;
+			height: 100%;
 		
 		a{
 			color:$secundary-color;
@@ -77,7 +74,7 @@ export default {
 		h2{color:$secundary-color;}
 		h3{color:$secundary-color;}
 		
-		div{padding: 0.5rem 1rem;}
+		div{padding: .1rem;}
 		
 		#footerInformations{
 			align-content: center;
@@ -89,6 +86,7 @@ export default {
 			#footerSubscribe{
 				display: grid;
 				grid-template-rows: 1fr 1fr;
+					background-color: $primary-color;
 				
 				button{
 					width: 100%;
@@ -110,11 +108,13 @@ export default {
 			#footerAbout{
 				margin: 1rem 0 0 0 ;
 				display: grid;
+				background-color: $primary-color;
 				grid-template-rows: 1.5fr .75fr .75fr;
 			}
 		}
 		
 		#footerLinks{
+				background-color: $primary-color;
 			display: grid;
 			grid-template-rows: 1.3fr .5fr .5fr .5fr .5fr .5fr .5fr;
 			border-right: 1px solid $secundary-color;
@@ -131,9 +131,8 @@ export default {
 			align-content: center;
 			justify-content: space-around;
 			display: grid;
+			background-color: $primary-color;
 			grid-template-rows: 1fr 1fr 1fr;
-			
-/*			div{height: 33%;	}*/
 			
 			#socialShare{
 				display: grid;
@@ -154,11 +153,9 @@ export default {
 					margin: .5rem 2rem 0 0;
 				}
 			}
-			}
-			#socialMail{
-				
-			}
 		}
+
+		#socialMail{
 		#footerGit{
 			align-items: center;
 			background-color: $primary-color;
@@ -179,9 +176,6 @@ export default {
             $transition-duration
             $transition-timing-function;
 				
-				&:hover{
-					background-color: $secundary-color;
-				}
 			}
 		}
 	}
