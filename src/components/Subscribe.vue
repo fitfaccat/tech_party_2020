@@ -36,9 +36,10 @@ export default {
 	section {
 		display: flex;
 
+		p { padding: 0 2rem; }
+
 		article {
 			flex: 1;
-			padding: 2rem;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -63,13 +64,18 @@ export default {
 				p { color: $primary-color; }
 			}
 			a {
+				width: 100%;
+				height: 100%;
+				display: flex;
+				align-items: center;
+				justify-content: center;
 				font-size: 32px;
-				color: $secundary-color;
 				font-weight: bold;
+				color: $secundary-color;
 			}
-			img { width: 85%; }
+			img { width: 75%; }
 			p {
-				padding: 0 2rem;
+				padding-bottom: 2rem;
 				text-align: justify;
 			}
 		}
