@@ -1,46 +1,84 @@
 <template>
 	<footer>
-		<div class="footer-informations">
-		<div id="footerInformations">
-			<div id="footerSubscribe">
-				<h1>TechParty 2020</h1>
-				<button>INSCREVA-SE</button>
-			</div>
-			<div id="footerAbout">
-				<h2>Mais sobre nós...</h2>
-				<a href="">Conheça a FACCAT</a>
-				<a href="">Conheça o curso de TI</a>
-			</div>
-		</div>
-		<div id="footerLinks">
-			<h2>Edições Anteriores (Sites)</h2>
-			<a href="">Tech Party 2014</a>
-			<a href="">Tech Party 2015</a>
-			<a href="">Tech Party 2016</a>
-			<a href="">Tech Party 2017</a>
-			<a href="">Tech Party 2018</a>
-			<a href="">Tech Party 2019</a>
-		</div>
-		<div id="footerSocialMedias">
-			<div id="socialShare">
-				<h2>Compartilhe</h2>
-					<img src="../assets/f_logo_RGB-Blue_58.png" alt="">
-					<a href="">@techpartyfaccat</a>
-					<img src="../assets/Twitter_Social_Icon_Circle_Color.png" alt="">
-					<a href="">@techpartyfaccat</a>
-			</div>
-			<div id="socialFollow">
-				<h2>Siga-nos</h2>
-				<img src="../assets/f_logo_RGB-Blue_58.png" alt="">
-				<img src="../assets/Twitter_Social_Icon_Circle_Color.png" alt="">
-				<img src="../assets/youtube_social_circle_red.png" alt="">
-			</div>
-			<div id="socialMail">
-				<img src="https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon5.ico" alt="">
-				<a href="">techpartyfaccat@gmail.com</a>
-			</div>
-		</div>
-		</div>
+		<section class="content">
+			<article>
+				<h2>TechParty 2020</h2>
+				<a href="#" class="subscribe" target="_blank">
+					<button>
+						INSCREVA-SE
+					</button>
+				</a>
+				<h3>Mais sobre nós...</h3>
+				<div class="link-access">
+					<a href="http://www.faccat.br/" target="_blank">Conheça a FACCAT</a>
+				</div>
+				<div class="link-access">
+					<a href="http://fit.faccat.br/" target="_blank">Conheça os cursos de TI</a>
+				</div>
+				<div class="link-access">
+					<a href="https://www.facebook.com/TiFaccat/" target="_blank">Siga a TI Faccat no Facebook</a>
+				</div>
+			</article>
+			<article>
+				<h3>Edições Anteriores</h3>
+				<div class="link-access">
+					<a href="https://techparty.faccat.br/2014/" target="_blank">Tech Party 2014</a>
+				</div>
+				<div class="link-access">
+					<a href="https://techparty.faccat.br/2015/" target="_blank">Tech Party 2015</a>
+				</div>
+				<div class="link-access">
+					<a href="https://techparty.faccat.br/2016/" target="_blank">Tech Party 2016</a>
+				</div>
+				<div class="link-access">
+					<a href="https://techparty.faccat.br/2017/" target="_blank">Tech Party 2017</a>
+				</div>
+				<div class="link-access">
+					<a href="https://techparty.faccat.br/2018/" target="_blank">Tech Party 2018</a>
+				</div>
+				<div class="link-access">
+					<a href="https://techparty.faccat.br/2019/" target="_blank">Tech Party 2019</a>
+				</div>
+			</article>
+			<article>
+				<h3>Compartilhe</h3>
+				<div class="share-social">
+					<a href="https://www.facebook.com/sharer.php?u=https://www.facebook.com/techpartyfaccat/" class="link-access" target="_blank">
+						<img class="small" src="../assets/f_logo_RGB-Blue_58.png" alt="">
+						<span>@techpartyfaccat</span>
+					</a>
+					<a href="https://twitter.com/share?url=https://twitter.com/techpartyfaccat&text=T%C3%B4%20na%20Faccat%20curtindo%20e%20aprendendo%20na" class="link-access" target="_blank">
+						<img class="small" src="../assets/Twitter_Social_Icon_Circle_Color.png" alt="">
+						<span>@techpartyfaccat</span>
+					</a>
+				</div>
+				<h3>Siga-nos</h3>
+				<div class="share-social share">
+					<a href="https://www.facebook.com/techpartyfaccat/" target="_blank">
+						<img src="../assets/f_logo_RGB-Blue_58.png" alt="">
+					</a>
+					<a href="https://twitter.com/techpartyfaccat" target="_blank">
+						<img src="../assets/Twitter_Social_Icon_Circle_Color.png" alt="">
+					</a>
+					<a href="https://www.youtube.com/playlist?list=PLkLwxRNpclbghZcA2PYzLyAbvKR3qZuam" target="_blank">
+						<img src="../assets/youtube_social_circle_red.png" alt="">
+					</a>
+				</div>
+				<div class="share-social share">
+					<a href="mailto:techpartyfaccat@gmail.com" class="link-access" target="_blank">
+						<img class="small" src="https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon5.ico" alt="">
+						<span>techpartyfaccat@gmail.com</span>
+					</a>
+				</div>
+			</article>
+		</section>
+		<section class="content-footer">
+			<img src="../assets/tech-party.png" alt="">
+			<a href="https://github.com/fitfaccat/tech_party_2020" target="_blank">
+				<span>tech_party_2020</span>
+				<img src="../assets/GitHub-Mark-32px.png" alt="">
+			</a>
+		</section>
 	</footer>
 </template>
 
@@ -53,133 +91,88 @@ export default {
 <style scoped lang="scss">
 @import './../assets/sass/variables.scss';
 
-	footer{
-		height: 60vh;
-		padding: 1rem;
-		
-		.footer-informations{
-			display: grid;
-			background-color: $primary-color;
-			grid-template-columns: 1fr 1fr 1fr;
-			height: 100%;
-		
-		a{
-			color:$secundary-color;
-			&:hover{
-				text-decoration: underline !important;
-				text-decoration-color: $secundary-color;
-			}
-		}
-		h1{color:$secundary-color;}
-		h2{color:$secundary-color;}
-		h3{color:$secundary-color;}
-		
-		div{padding: .1rem;}
-		
-		#footerInformations{
-			align-content: center;
-			justify-content: space-around;
-			border-right: 1px solid $secundary-color;
-			display: grid;
-			grid-template-rows: 1fr 1fr;
+footer {
+	background: $primary-color;
+	color: $secundary-color;
+	height: 50vh;
+
+	a { color: $secundary-color; }
+	img { width: 32px; margin-right: .5rem; }
+	.content {
+		height: 40vh;
+		display: flex;
+
+		article {
+			flex: 1;
+			padding: 2rem 2rem 0 2rem;
 			
-			#footerSubscribe{
-				display: grid;
-				grid-template-rows: 1fr 1fr;
-					background-color: $primary-color;
-				
-				button{
-					width: 100%;
-					background-color: $primary-color;
+			.link-access {
+				margin: .25rem 0;
+				a:hover { border-bottom: 1px solid $secundary-color; }
+			}
+			.subscribe {
+				display: flex;
+				justify-content: center;
+				border-bottom: none;
+
+				button {
+					margin: 1rem 0;
+					border: 2px solid $secundary-color;
+					padding: 1rem 2rem;
 					color: $secundary-color;
-					border: 1px solid $secundary-color;
+					font-weight: bold;
+					font-size: 18px;
+					border-radius: 1rem;
+					background-color: $primary-color;
+					cursor: pointer;
 					transition:
-            background-color
-            $transition-duration
-            $transition-timing-function;
-					
-					&:hover{
-						background-color: $secundary-color;
-						color:$primary-color;
+						background-color
+						$transition-duration
+						$transition-timing-function;
+					transition:
+						color
+						$transition-duration
+						$transition-timing-function;
+
+					&:hover {
+						color: $primary-color;
+						background: $secundary-color;
 					}
 				}
 			}
-			
-			#footerAbout{
-				margin: 1rem 0 0 0 ;
-				display: grid;
-				background-color: $primary-color;
-				grid-template-rows: 1.5fr .75fr .75fr;
-			}
-		}
-		
-		#footerLinks{
-				background-color: $primary-color;
-			display: grid;
-			grid-template-rows: 1.3fr .5fr .5fr .5fr .5fr .5fr .5fr;
-			border-right: 1px solid $secundary-color;
-			align-content: center;
-			justify-content: space-around;
-			
-			h2{
-				align-content: center;
-				margin-top: 1rem;
-			}
-		}
-		
-		#footerSocialMedias{
-			align-content: center;
-			justify-content: space-around;
-			display: grid;
-			background-color: $primary-color;
-			grid-template-rows: 1fr 1fr 1fr;
-			
-			#socialShare{
-				display: grid;
-				grid-template-rows: 1fr .5fr .5fr;
-				#shareLinkOne{
-					vertical-align: middle;
-				}
-				#shareLinkTwo{
-					vertical-align: middle;
-				}
-				text-align: center;
-				img{width: 32px;}
-			}
-			#socialFollow{
-				text-align: center;
-				img{
-					width: 48px;
-					margin: .5rem 2rem 0 0;
-				}
-			}
-		}
+			.share-social {
+				margin-bottom: 1rem;
+				display: flex;
+				justify-content: space-between;
 
-		#socialMail{
-		#footerGit{
-			align-items: center;
-			background-color: $primary-color;
-			
-			button{
-				padding: 5px;
-				background-color: transparent;
-				color:$primary-color;
-				float: right;
-				align-content: center;
-				margin-right: 1rem;
-				img {
-					width:32px;
-					vertical-align: middle;
+				a {
+					display: flex;
+					align-items: center;
 				}
-				transition:
-            background-color
-            $transition-duration
-            $transition-timing-function;
-				
+				.small {
+					width: 16px;
+					height: 16px;
+				}
 			}
+			.share { justify-content: flex-start; }
 		}
 	}
-	
-	
-	
+	.content-footer {
+		height: 10vh;
+		background: $tertiary-color;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		img { margin: 0 1rem; }
+		a {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			color: $tertiary-color-shade;
+
+			&:hover { color: $secundary-color; }
+		}
+	}
+}
 </style>
