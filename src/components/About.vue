@@ -140,28 +140,28 @@
 					</p>
 				</div>
 				<figure class="a">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2016/3a7a573393fbccd57138890cd3df8622.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="b">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2016/de89f92ef309c4cd7b97a4fcf07de987.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="c">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2016/62ec9836418d7613f7bf9f52e968d5a5.jpg" class="" alt="">
 				</figure>
 				<figure class="d">
 					<img src="./../assets/tech-party.png" class="img-logo" alt="">
 				</figure>
 				<figure class="e">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2016/458d2c29e8b61bbd9ba421c233caafb7.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="f">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2016/c1b7c86658185cd156344894e2019051.jpg" class="img-width" alt="">
 				</figure>
 				<figure class="g">
-					<img src="https://picsum.photos/600" class="" alt="">
+					<img src="gallery/2016/de89f92ef309c4cd7b97a4fcf07de06f.jpg" class="" alt="">
 				</figure>
 				<figure class="h">
-					<img src="https://picsum.photos/600" class="img-width" alt="">
+					<img src="gallery/2016/363f29095e56662bde06d7ccc98763bf.jpg" class="img-width" alt="">
 				</figure>
 			</div>
 		</gallery>
