@@ -1,5 +1,5 @@
 <template>
-  <header :class="{ scroll: activeScroll }">
+  <header :class="{ scroll: activeScroll }" class="fullhd-font-size">
     <nav>
       <img src="https://techparty.faccat.br/images/logos/LogoTPtexto2.png" alt="Logo">
 

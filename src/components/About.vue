@@ -1,5 +1,5 @@
 <template>
-	<section id="about">
+	<section id="about" class="fullhd-font-size">
 		
 		<article>
 			<h2>SOBRE</h2>
@@ -282,7 +282,7 @@ export default {
 	}
 	.text,
 	.title {
-		background: #ffffffbb;
+		background: #ffffffdd;
 		position: absolute;
 		padding: 2rem;
 		z-index: 80;

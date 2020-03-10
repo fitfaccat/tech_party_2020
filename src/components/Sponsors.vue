@@ -1,7 +1,7 @@
 <template>
 	<section id="sponsors">
-		<section id="becomeSponsor">
-			{{ sessionData.sessions[0].content[0].text }}
+		<section id="becomeSponsor" class="fullhd-font-size">
+			<span>{{ sessionData.sessions[0].content[0].text }}</span>
 			<span class="email">
 				{{ sessionData.sessions[0].content[1].text }}
 			</span>
@@ -12,12 +12,12 @@
 			:key="id"
 			v-show="id > 0"
 		>
-			<div :id="category.id">
+			<div :id="category.id" class="fullhd-font-size">
 				<h1>{{ category.name }}</h1>
 			</div>
 			<article
 				class="wrap-sponsor"
-				:class="`wrap-sponsor-${category.id}`"
+				:class="[(category.name == 'Bronze' || category.name == 'Apoio') ? `wrap-sponsor-${category.id}` : `wrap-sponsor-${category.id} fullhd-font-size`]"
 				v-for="(sponsor, index) in category.content"
 				:key="index"
 				:id="sponsor.id"

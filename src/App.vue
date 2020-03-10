@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-
     <HeaderMenu />
     <Banner />
     <Schedule />
@@ -11,12 +10,10 @@
     <Churras />
     <Local />
     <FooterPage/>
-    
   </div>
 </template>
 
 <script>
-	
 import HeaderMenu from './components/HeaderMenu.vue';
 import Banner from './components/Banner.vue';
 import Schedule from './components/Schedule.vue';
@@ -64,5 +61,14 @@ html, body { height: 100vh; }
   background-color: $primary-color;
 
   a { text-decoration: none; }
+}
+
+@media (min-width: 1920px) {
+  .fullhd-font-size {
+      h1 { font-size: 42px; }
+      h2 { font-size: 36px; }
+      h3 { font-size: 32px; }
+      span, a, p { font-size: 24px; }
+  }
 }
 </style>

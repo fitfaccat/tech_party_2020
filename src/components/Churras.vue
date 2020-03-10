@@ -1,5 +1,5 @@
 <template>
-	<section id="churras">
+	<section id="churras" class="fullhd-font-size">
 		
 		<h2>O melhor churras do mundo!</h2>
 

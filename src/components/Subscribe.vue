@@ -1,5 +1,5 @@
 <template>
-	<section id="subscribe">
+	<section id="subscribe" class="fullhd-font-size">
 		<h2>Agora te inscreve aí tchê...</h2>
 		<section>
 			<article>
