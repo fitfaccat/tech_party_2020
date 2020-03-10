@@ -99,7 +99,7 @@ footer {
 	a { color: $secundary-color; }
 	img { width: 32px; margin-right: .5rem; }
 	.content {
-		height: 50vh;
+		height: 100%;
 		display: flex;
 		align-items: center;
 
@@ -174,6 +174,39 @@ footer {
 			color: $tertiary-color-shade;
 
 			&:hover { color: $secundary-color; }
+		}
+	}
+}
+
+/* responsive */
+@media (max-width: 950px) {
+	footer .content article {
+		padding: 0 1rem;
+	}
+}
+@media (max-width: 850px) {
+	footer {
+		height: initial;
+
+		.content {
+			width: 100%;
+			display: block;
+			position: relative;
+				
+			article {
+				padding: 2rem;
+				height: 300px;
+				display: inline-block;
+
+				&:first-child,
+				&:nth-child(2) {
+					width: 50%;
+				}
+				&:nth-child(2) { position: absolute; }
+				&:last-child {
+					width: 100%;
+				}
+			}
 		}
 	}
 }

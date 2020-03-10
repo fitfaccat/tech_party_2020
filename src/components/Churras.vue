@@ -59,4 +59,21 @@ export default {
 		}
 	}
 }
+
+/* responsive */
+@media (max-width: 850px) {
+	#churras section article .wrap-text {
+		padding: 2rem 0;
+	}
+}
+@media (max-width: 650px) {
+	#churras {
+		padding: 0;
+
+		h2 {
+			padding: 2rem;
+			font-size: 20px;
+		}
+	}
+}
 </style>

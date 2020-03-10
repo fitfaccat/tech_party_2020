@@ -133,4 +133,16 @@ export default {
 		.wrap-panel { height: 100%; }
 	}
 }
+
+/* responsive */
+@media (max-width: 650px) {
+	#schedule {
+		padding: 0;
+
+		h2 {
+			padding: 2rem;
+			font-size: 20px;
+		}
+	}
+}
 </style>

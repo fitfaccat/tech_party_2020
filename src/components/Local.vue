@@ -46,4 +46,16 @@ export default {
 		#maps { height: 100vh; background: darkseagreen; }
 	}
 }
+
+/* responsive */
+@media (max-width: 650px) {
+	#local {
+		padding: 0;
+
+		h2 {
+			padding: 2rem;
+			font-size: 20px;
+		}
+	}
+}
 </style>
