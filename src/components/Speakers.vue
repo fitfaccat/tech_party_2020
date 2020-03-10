@@ -1,5 +1,5 @@
 <template>
-	<section id="speakers">
+	<section id="speakers" class="fullhd-font-size">
 		<h2>Palestrantes...</h2>
 		<Speaker
 			:key="id"

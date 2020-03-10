@@ -3,7 +3,9 @@
 		<div class="filter"></div>
 		<article>
 			<img src="https://techparty.faccat.br/images/logos/techparty-logo.png" alt="">
-			<div>27 a 30 de Abril - FACCAT</div>
+			<div>
+				<span>27 a 30 de Abril - FACCAT</span>
+			</div>
 			<Countdown
 				dateEvent="1588015800000"
 			/>

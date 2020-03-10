@@ -1,5 +1,5 @@
 <template>
-	<section id="local">
+	<section id="local" class="fullhd-font-size">
 		<h2>E segue o rumo do teu próprio coração</h2>
 		<section>
 			<article id="address">

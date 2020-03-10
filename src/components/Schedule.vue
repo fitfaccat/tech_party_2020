@@ -1,5 +1,5 @@
 <template>
-	<section id="schedule">
+	<section id="schedule" class="fullhd-font-size">
 		<h2>Cronograma</h2>
 		<section class="content-talks">
 			<tabs class="wrap-panel">

@@ -1,6 +1,6 @@
 <template>
 	<footer>
-		<section class="content">
+		<section class="content fullhd-font-size">
 			<article>
 				<h2>TechParty 2020</h2>
 				<a href="https://saga2.faccat.br/index.php?op=1068&chave=1739&portal=E" class="subscribe" target="_blank">
@@ -42,7 +42,7 @@
 			</article>
 			<article>
 				<h3>Compartilhe</h3>
-				<div class="share-social">
+				<div class="share-social fullhd-font-size">
 					<a href="https://www.facebook.com/sharer.php?u=https://www.facebook.com/techpartyfaccat/" class="link-access" target="_blank">
 						<img class="small" src="../assets/facebook-2020.png" alt="">
 						<span>@techpartyfaccat</span>
@@ -65,14 +65,14 @@
 					</a>
 				</div>
 				<div class="share-social share">
-					<a href="mailto:techpartyfaccat@gmail.com" class="link-access" target="_blank">
+					<a href="mailto:techpartyfaccat@gmail.com" class="link-access fullhd-font-size" target="_blank">
 						<img class="small" src="https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon5.ico" alt="">
 						<span>techpartyfaccat@gmail.com</span>
 					</a>
 				</div>
 			</article>
 		</section>
-		<section class="content-footer">
+		<section class="content-footer fullhd-font-size">
 			<img src="../assets/tech-party.png" alt="">
 			<a href="https://github.com/fitfaccat/tech_party_2020" target="_blank">
 				<span>tech_party_2020</span>
