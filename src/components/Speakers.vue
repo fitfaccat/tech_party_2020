@@ -72,4 +72,12 @@ export default {
 		color: $secundary-color;
 	}
 }
+
+@media (max-width: 650px) {
+	#speakers {
+		padding: 0;
+
+		h2 { padding: 2rem; }
+	}
+}
 </style>

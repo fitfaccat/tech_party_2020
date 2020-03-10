@@ -63,6 +63,7 @@ html, body { height: 100vh; }
   a { text-decoration: none; }
 }
 
+/* responsive */
 @media (min-width: 1920px) {
   .fullhd-font-size {
       h1 { font-size: 42px; }

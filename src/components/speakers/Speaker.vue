@@ -53,37 +53,38 @@ export default {
 @import './../../assets/sass/variables.scss';
 
 section {
+	display: flex;
+
+	h2 {
+		padding-bottom: 0;
+		color: $primary-color;
+		padding: .5rem;
+	}
+	article {
+		flex: 1;
+		height: 300px;
 		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.perfil-photo {
+		background: $tertiary-color;
 
-		h2 {
-			padding-bottom: 0;
-			color: $primary-color;
+		img {
+			height: 280px;
+			width: 280px;
+			border-radius: 50%;
+			display: block;
 		}
-		article {
-			flex: 1;
-			height: 300px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-		.perfil-photo {
-			background: $tertiary-color;
+	}
+	.perfil-info {
+		display: flex;
+		flex-direction: column;
+		background: $secundary-color;
 
-			img {
-				height: 280px;
-				width: 280px;
-				border-radius: 50%;
-				display: block;
-			}
-		}
-		.perfil-info {
-			display: flex;
-			flex-direction: column;
-			background: $secundary-color;
-
-			p,
-			.perfil-wrap { flex: 1 }
-			.perfil-wrap {
+		p,
+		.perfil-wrap { flex: 1 }
+		.perfil-wrap {
 				width: 100%;
 				display: flex;
 				align-items: center;
@@ -104,11 +105,19 @@ section {
 						}
 					}
 				}
-			}
-			p {
+		}
+		p {
 				padding: 1rem 2rem;
 				text-align: justify;
-			}
 		}
 	}
+}
+
+/* responsive */
+@media (max-width: 650px) {
+	section .perfil-photo img {
+		width: 75%;
+		height: initial;
+	}
+}
 </style>

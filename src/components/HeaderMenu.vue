@@ -202,6 +202,7 @@ header {
         margin: .7rem 1rem;
         height: 2.5rem;
         z-index: 100;
+        cursor: pointer;
       
         svg {
           width: 20px;

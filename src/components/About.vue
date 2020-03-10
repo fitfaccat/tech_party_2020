@@ -752,6 +752,41 @@ export default {
 	}
 }
 
+/* responsive */
+@media (max-width: 1000px) {
+	#about .text {
+		padding: 1rem;
+	}
+}
+@media (max-width: 950px) {
+	#about .bg-2015 .text {
+		width: 80%;
+	}
+}
+@media (max-width: 850px) {
+	#about {
+		.title h3 {
+			font-size: 16px;
+		}
+		.bg-2014 .text,
+		.bg-2015 .text {
+			width: 90%;
+		}
+	}
+}
+@media (max-width: 650px) {
+	#about {
+		article { padding: 2rem; }
+		.title { padding: 1rem; }
+		.bg-2014 .text { top: 5%; }
+		.bg-2016 .text { width: 80%; }
+		.bg-2017 .text { width: 90%; }
+		.bg-2018 .text { width: 90%; }
+		.bg-2019 .text { width: 90%; }
+	}
+}
+
+/* keyframes */
 @keyframes arrow {
 	0% {opacity:0}
 	40% {opacity:1}

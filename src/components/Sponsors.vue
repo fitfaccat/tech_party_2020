@@ -199,4 +199,56 @@ export default {
 		}
 	}
 }
+
+/* responsive */
+@media (max-width: 1300px) {
+	#sponsors .content-sponsor {
+		.wrap-sponsor-bronze,
+		.wrap-sponsor-apoio {
+			width: 40%;
+		}
+	}
+}
+@media (max-width: 1000px) {
+	#sponsors .content-sponsor {
+		.wrap-sponsor-silver,
+		.wrap-sponsor-gold {
+			width: 75%;
+		}
+		.wrap-sponsor-bronze,
+		.wrap-sponsor-apoio {
+			width: 50%;
+		}
+	}
+}
+@media (max-width: 800px) {
+	#sponsors .content-sponsor {
+		.wrap-sponsor a figure img {
+			width: initial;
+			max-width: 75%;
+		}
+		.wrap-sponsor-bronze,
+		.wrap-sponsor-apoio {
+			width: 75%;
+		}
+	}
+}
+@media (max-width: 650px) {
+	#sponsors {
+		#becomeSponsor {
+			padding: 1rem;
+		}
+		.content-sponsor {
+			.wrap-sponsor a .description {
+				padding: 2rem;
+			}
+			.wrap-sponsor-silver,
+			.wrap-sponsor-gold,
+			.wrap-sponsor-bronze,
+			.wrap-sponsor-apoio {
+				width: 90%;
+			}
+		}
+	}
+}
 </style>
