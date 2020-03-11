@@ -66,7 +66,7 @@ export default {
 		padding: 2rem 0;
 	}
 }
-@media (max-width: 650px) {
+@media (max-width: 600px) {
 	#churras {
 		padding: 0;
 
@@ -74,6 +74,7 @@ export default {
 			padding: 2rem;
 			font-size: 20px;
 		}
+		section { flex-direction: column; }
 	}
 }
 </style>
