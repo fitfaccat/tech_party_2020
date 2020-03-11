@@ -48,13 +48,18 @@ export default {
 }
 
 /* responsive */
-@media (max-width: 650px) {
+@media (max-width: 600px) {
 	#local {
 		padding: 0;
 
 		h2 {
 			padding: 2rem;
 			font-size: 20px;
+		}
+		section {
+			#address {
+				p { text-align: center; }
+			}
 		}
 	}
 }
