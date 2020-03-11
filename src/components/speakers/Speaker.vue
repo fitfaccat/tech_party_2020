@@ -127,11 +127,11 @@ section {
 			.perfil-wrap {
 				padding: 0 .5rem;
 				
-					.social-links-content {
-						.social-links-items {
-							img { padding: .3rem; }
-						}
+				.social-links-content {
+					.social-links-items {
+						img { padding: .3rem; }
 					}
+				}
 			}
 			p {
 				padding: 1rem;
