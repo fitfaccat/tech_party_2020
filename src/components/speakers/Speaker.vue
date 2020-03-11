@@ -1,10 +1,8 @@
 <template>
 	<section :id="id">
-
 		<article class="perfil-photo" v-if="evenMod === 0">
 			<img :src="image" :alt="name">
 		</article>
-
 		<article class="perfil-info">
 			<div class="perfil-wrap">
 				<h2>{{ name }}</h2>
@@ -24,11 +22,9 @@
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque consequatur velit placeat dignissimos beatae quae modi alias doloremque architecto vel.
 			</p>
 		</article>
-
 		<article class="perfil-photo" v-if="evenMod !== 0">
 			<img :src="image" :alt="name">
 		</article>
-
 	</section>
 </template>
 
@@ -43,7 +39,10 @@ export default {
 	},
 	computed: {
 		evenMod() {
-			return this.index % 2;
+			if (window.innerWidth > 600) {
+				return this.index % 2;
+			}
+			return 0;
 		}
 	}
 }
@@ -85,30 +84,30 @@ section {
 		p,
 		.perfil-wrap { flex: 1 }
 		.perfil-wrap {
-				width: 100%;
+			width: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+			
+			.social-links-content {
 				display: flex;
 				align-items: center;
-				justify-content: space-around;
-			
-				.social-links-content {
-					display: flex;
-					align-items: center;
-					justify-content: center;
+				justify-content: center;
 
-					.social-links-items {
-						img {
-							padding: .5rem;
-							display: block;
-							width: 48px;
-							
-							&:hover { opacity: .8; }
-						}
+				.social-links-items {
+					img {
+						padding: .5rem;
+						display: block;
+						width: 48px;
+						
+						&:hover { opacity: .8; }
 					}
 				}
+			}
 		}
 		p {
-				padding: 1rem 2rem;
-				text-align: justify;
+			padding: 1rem 2rem;
+			text-align: justify;
 		}
 	}
 }
@@ -118,6 +117,27 @@ section {
 	section .perfil-photo img {
 		width: 75%;
 		height: initial;
+	}
+}
+@media (max-width: 600px) {
+	section {
+		flex-direction: column;
+
+		.perfil-info {
+			.perfil-wrap {
+				padding: 0 .5rem;
+				
+					.social-links-content {
+						.social-links-items {
+							img { padding: .3rem; }
+						}
+					}
+			}
+			p {
+				padding: 1rem;
+				flex: 2;
+			}
+		}
 	}
 }
 </style>
