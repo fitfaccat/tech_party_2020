@@ -235,7 +235,7 @@ header {
     }
   }
 }
-@media (max-width: 965px) {
+@media (max-width: 600px) {
   header nav {
     img { height: 4rem; }
     .menu-list {
