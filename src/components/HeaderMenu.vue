@@ -235,6 +235,26 @@ header {
     }
   }
 }
+@media (max-width: 965px) {
+  header nav {
+    img { height: 4rem; }
+    .menu-list {
+      width: 80%;
+    }
+  }
+  .scroll {
+    box-shadow: 0 10px 20px $primary-color;
+    nav {
+      background: $primary-color;
+      .menu-bar {
+        height: 2rem;
+        margin: .5rem 1rem;
+        padding: 0 .8rem;
+      }
+    }
+    img { height: 3rem; }
+  }
+}
 
 /* keyframe */
 @keyframes logspin {
