@@ -78,4 +78,13 @@ export default {
 		}
 	}
 }
+
+/* responsive */
+@media (max-width: 600px) {
+  #banner article {
+		font-size: 18px;
+
+		img { width: 6rem; }
+	}
+}
 </style>

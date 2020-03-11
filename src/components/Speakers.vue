@@ -73,6 +73,7 @@ export default {
 	}
 }
 
+/* responsive */
 @media (max-width: 650px) {
 	#speakers {
 		padding: 0;

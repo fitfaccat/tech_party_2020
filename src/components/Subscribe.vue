@@ -1,6 +1,6 @@
 <template>
 	<section id="subscribe" class="fullhd-font-size">
-		<h2>Agora te inscreve aí tchê...</h2>
+		<h2>Agora clica e te inscreve aí tchê...</h2>
 		<section>
 			<article>
 				<a href="https://saga2.faccat.br/index.php?op=1068&chave=1739&portal=E" target="_blank">QUERO ME INSCREVER</a>
@@ -87,7 +87,7 @@ export default {
 }
 
 /* responsive */
-@media (max-width: 650px) {
+@media (max-width: 600px) {
 	#subscribe {
 		padding: 0;
 
@@ -95,8 +95,14 @@ export default {
 			padding: 2rem;
 			font-size: 20px;
 		}
-		section article a {
-			font-size: 24px;
+		section {
+			height: 180vh;
+			flex-direction: column;
+
+			article {
+				a { font-size: 24px; }
+				p { padding: 0 1rem; }
+			}
 		}
 	}
 }

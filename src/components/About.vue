@@ -53,6 +53,11 @@
 					<img src="gallery/2019/03e1355848194205226f0daa6d2314fb.jpg" class="" alt="">
 				</figure>
 			</div>
+			<div class="text-responsive">
+				<p>
+					Em 2019, continuamos trabalhando para fazer um evento atrativo e que valha a pena ser visitado. A ótima novidade e que sem dúvida merece ser registrada na história do evento, é que pela primeira vez teremos mulheres entre os palestrantes: cinco (de um total de nove palestrantes), são mulheres. Infelizmente, por um conjunto de acasos que não esperamos que volte a ocorrer, nas edições anteriores nunca uma mulher havia estado em nossos palcos. Mas neste ano as mulheres são maioria.
+				</p>
+			</div>
 		</gallery>
 
 		<gallery class="bg-2018">
@@ -87,6 +92,11 @@
 				<figure class="g">
 					<img src="gallery/2018/eb7a070c3c39d4038fdb96fbd7d5979d.jpg" class="img-width" alt="">
 				</figure>
+			</div>
+			<div class="text-responsive">
+				<p>
+					2018, mais uma grande evolução: o evento passa a acontecer no novo Centro de Eventos da Faccat, um prédio bonito, moderno e com muito mais espaço. Isso permitiu aos patrocinadores exporem produtos e montar estandes, deixando o evento mais atrativo para os participantes. Esse foi mais um ano onde o grande número de patrocinadores mostrou a consolidação do evento dentro da comunidade, cujas empresas regionais e de fora confiam e investem para exporem suas marcas e, principalmente, colaboram de maneira fundamental para que o evento ocorra da melhor forma para os participantes.
+				</p>
 			</div>
 		</gallery>
 
@@ -126,6 +136,11 @@
 					<img src="gallery/2017/eb7a070c3c39d4038fdb96fbd7d5979d.jpg" class="img-width" alt="">
 				</figure>
 			</div>
+			<div class="text-responsive">
+				<p>
+					Em 2017 o evento foi um sucesso como todos os outros anos. Batemos mais um recorde em presenças e contamos com palestrantes de primeiríssmo nível: desenvolvedores, empreendedores, psicólogos (sim! falando sobre uso de games eletrônicos para superação de traumas), gamers, diretores e ninjas em IA. Mais uma vez foi possível contar com o patrocínio de empresas excepcionais que ajudam MUITO o evento acontecer. Muito obrigado Senac, LoopHOST, Rocket.Chat, Umbler, FlyByte, Infisc Inteligência Fiscal, Bela Viagem, Sanvitron, CR Sistemas e Web e Jorge Bischoff.
+				</p>
+			</div>
 		</gallery>
 
 		<gallery class="bg-2016">
@@ -163,6 +178,11 @@
 				<figure class="h">
 					<img src="gallery/2016/363f29095e56662bde06d7ccc98763bf.jpg" class="img-width" alt="">
 				</figure>
+			</div>
+			<div class="text-responsive">
+				<p>
+					2016, seguimos crescendo! Nesse ano, queríamos buscar profissionais de empresas conhecidas nacionalmente e do exterior. Como sempre, foram realizadas talks realmente incríveis e conseguimos profissionais de empresas renomadas, como Red Hat, Rocket.Chat, We Heart It, SAP, Mozilla, Terra, Arezzo, CWI Software.
+				</p>
 			</div>
 		</gallery>
 
@@ -205,6 +225,14 @@
 					<img src="gallery/2015/f52e0290edcc9cb596567553a51dc471.jpg" class="" alt="">
 				</figure>
 			</div>
+			<div class="text-responsive">
+				<p>
+					Em 2015 o evento manteve o mesmo ritmo, com ainda mais público e empolgação dos participantes durante a semana da TechParty. Alguma novidade? Sim! Sai o coffee break e um novo evento é lançado (um evento dentro do evento!): o Rango Break.
+				</p>
+				<p>
+					A ideia agora é que o momento do lanche seja tão ou mais interessante que as próprias apresentações técnicas. O Rango Break é um momento onde, diariamente, após as duas talks de cada noite, é oferecido alguma comidinha (“rango”) especial, tais como o cachorro-quente de uma famosa Towner de Taquara (que veio para o Campus da Faccat especialmente para o evento), ou a “galinhada nerd”, feita por alunos do curso, sanduíche “buraco quente” e cupcakes, mais um super-dog feito por alunos e, finalmente, no último dia, o grande Churras de Integração dos cursos de TI da Faccat. Esses rangos são fornecidos sem custo aos participantes, graças ao apoio financeiro das empresas patrocinadoras.
+				</p>
+			</div>
 		</gallery>
 
 		<gallery class="bg-2014">
@@ -245,6 +273,14 @@
 				<figure class="h">
 					<img src="./../assets/tech-party-old.png" class="img-logo" alt="">
 				</figure>
+			</div>
+			<div class="text-responsive">
+				<p>
+					Em 2014, estudantes da instituição com o objetivo de oferecer conhecimento para o maior número de pessoas, optam por retornar com o evento, mas agora com organização diferenciada.
+				</p>
+				<p>
+					TechParty passou a ser um evento anual, com duração de uma semana inteira, com duas talks (apresentações) por noite e coffee break atraente a fim de estimular a interação das pessoas e o networking. Mantendo a proposta de contar com palestrantes da faculdade e convidados externos, mas sempre com assuntos interessantes e atuais, o evento teve um salto no número de participantes com esse novo formato, ultrapassando 700 pessoas (somadas as 5 noites), entre alunos, ex-alunos, pessoas da comunidade, alunos de escolas da região e representantes de muitas empresas da área de atuação da Faccat.
+				</p>
 			</div>
 		</gallery>
 
@@ -774,15 +810,56 @@ export default {
 		}
 	}
 }
-@media (max-width: 650px) {
+@media (max-width: 600px) {
 	#about {
-		article { padding: 2rem; }
-		.title { padding: 1rem; }
-		.bg-2014 .text { top: 5%; }
-		.bg-2016 .text { width: 80%; }
-		.bg-2017 .text { width: 90%; }
-		.bg-2018 .text { width: 90%; }
-		.bg-2019 .text { width: 90%; }
+		article { padding: 1rem; }
+		.wrap-images {
+			display: flex;
+			flex-direction: column;
+		}
+		
+		.text-responsive { flex: 1; }
+		.images { flex: 2; }
+
+		.text { display: none; }
+		.text-responsive {
+			padding: 1rem;
+			text-align: justify;
+		}
+
+		.bg-2015,
+		.bg-2014 {
+			min-height: 150vh;
+		}
+		.bg-2014,
+		.bg-2015,
+		.bg-2016,
+		.bg-2017,
+		.bg-2018,
+		.bg-2019 {
+			.title {
+				width: 60%;
+				padding: 1rem;
+
+				h2 { font-size: 32px; }
+			}
+		}
+		.bg-2019 .text,
+		.bg-2016 .text,
+		.bg-2015 .text {
+			color: $secundary-color;
+		}
+		.bg-2018 .text,
+		.bg-2017 .text,
+		.bg-2014 .text {
+			color: $primary-color;
+		}
+		figure .img-logo { height: 70%; }
+		.bg-2018 .title { bottom: initial; }
+		.bg-2016 .title { bottom: 35%; }
+		.bg-2015 .title { top: 35%; }
+		.bg-2014 .title { bottom: 40%; }
+		.bg-2020 h2 { font-size: 18px; }
 	}
 }
 

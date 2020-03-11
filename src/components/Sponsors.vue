@@ -48,7 +48,6 @@ export default {
 	},
 	computed: {
 		sessionData() {
-			console.log( JSON.parse(this.sessionDataJson) );
 			return JSON.parse(this.sessionDataJson);
 		}
 	}

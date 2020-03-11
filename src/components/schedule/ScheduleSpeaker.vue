@@ -104,4 +104,9 @@ export default {
 		p { padding-top: .5rem; }
 	}
 }
+
+/* responsive */
+@media (max-width: 600px) {
+	.talk { flex-direction: column-reverse; }
+}
 </style>

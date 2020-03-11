@@ -73,4 +73,8 @@ export default {
 	overflow-y: auto;
 	padding: .5rem 1rem;
 }
+
+@media (max-width: 600px) {
+	.tab-details { padding: .5rem 0; }
+}
 </style>

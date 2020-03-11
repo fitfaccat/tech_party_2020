@@ -3,7 +3,7 @@
 		<h2>Cronograma</h2>
 		<section class="content-talks">
 			<tabs class="wrap-panel">
-				<tab name="27/Abril" :selected="true" class="tab-panel">
+				<tab name="27/Abr" :selected="true" class="tab-panel">
 					<ScheduleSpeaker
 						title="Usando Windows no MacBook"
 						hour="19:30"
@@ -27,7 +27,7 @@
 						}"
 					/>
 				</tab>
-				<tab name="28/Abril">
+				<tab name="28/Abr">
 					<ScheduleSpeaker
 						title="Windows Phone não morreu"
 						hour="19:30"
@@ -51,7 +51,7 @@
 						}"
 					/>
 				</tab>
-				<tab name="29/Abril">
+				<tab name="29/Abr">
 					<ScheduleSpeaker
 						title="Muito mais likes"
 						hour="19:30"
@@ -75,7 +75,7 @@
 						}"
 					/>
 				</tab>
-				<tab name="30/Abril">
+				<tab name="30/Abr">
 					<ScheduleSpeaker
 						title="Ao infinito... e além!"
 						hour="19:30"
@@ -130,7 +130,7 @@ export default {
 		color: $primary-color;
 		height: 90%;
 		
-		.wrap-panel { height: 100%; }
+		.wrap-panel { height: 96%; }
 	}
 }
 
@@ -142,6 +142,13 @@ export default {
 		h2 {
 			padding: 2rem;
 			font-size: 20px;
+		}
+	}
+}
+@media (max-width: 600px) {
+  #schedule {
+		.content-talks {
+			.wrap-panel { height: 92%; }
 		}
 	}
 }

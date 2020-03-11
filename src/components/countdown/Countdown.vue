@@ -79,12 +79,11 @@ export default {
 	.countdown { width: 75%; }
 }
 @media (max-width: 600px) {
-	.countdown { width: 95%; }
-}
-@media (max-width: 500px) {
 	.countdown {
+		width: 100%;
 		.wrap {
-			.item-top { font-size: 32px; }
+			.item-top { font-size: 28px; }
+			.item-bottom { font-size: 16px; }
 		}
 	}
 }
