@@ -42,7 +42,7 @@
 			</article>
 			<article>
 				<h3>Compartilhe</h3>
-				<div class="share-social fullhd-font-size">
+				<div class="share-social share-social-responsive fullhd-font-size">
 					<a href="https://www.facebook.com/sharer.php?u=https://www.facebook.com/techpartyfaccat/" class="link-access" target="_blank">
 						<img class="small" src="../assets/facebook-2020.png" alt="">
 						<span>@techpartyfaccat</span>
@@ -208,6 +208,29 @@ footer {
 				}
 			}
 		}
+	}
+}
+@media (max-width: 600px) {
+	footer {
+		.content {
+				width: 100%;
+				position: relative;
+				display: flex;
+				flex-direction: column;
+					
+				article {
+					flex: 1;
+					padding: 1rem;
+					position: relative;
+
+					&:first-child,
+					&:nth-child(2) {
+						width: 100%;
+					}
+					&:nth-child(2) { position: relative; }
+				}
+			}
+		.share-social-responsive { flex-direction: column; }
 	}
 }
 </style>
