@@ -115,7 +115,7 @@ section {
 /* responsive */
 @media (max-width: 650px) {
 	section .perfil-photo img {
-		width: 75%;
+		max-width: 75%;
 		height: initial;
 	}
 }
