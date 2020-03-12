@@ -816,21 +816,19 @@ export default {
 		.wrap-images {
 			display: flex;
 			flex-direction: column;
+			height: initial;
 		}
 		
-		.text-responsive { flex: 1; }
-		.images { flex: 2; }
-
+		figure {
+			.img-width { width: initial; }
+		}
+		.images { height: 75vh; }
 		.text { display: none; }
 		.text-responsive {
 			padding: 1rem;
 			text-align: justify;
 		}
-
-		.bg-2015,
-		.bg-2014 {
-			min-height: 150vh;
-		}
+		
 		.bg-2014,
 		.bg-2015,
 		.bg-2016,
@@ -844,14 +842,16 @@ export default {
 				h2 { font-size: 32px; }
 			}
 		}
-		.bg-2019 .text,
-		.bg-2016 .text,
-		.bg-2015 .text {
+		.bg-2020 { height: 100vh; }
+
+		.bg-2019 .text-responsive,
+		.bg-2016 .text-responsive,
+		.bg-2015 .text-responsive {
 			color: $secundary-color;
 		}
-		.bg-2018 .text,
-		.bg-2017 .text,
-		.bg-2014 .text {
+		.bg-2018 .text-responsive,
+		.bg-2017 .text-responsive,
+		.bg-2014 .text-responsive {
 			color: $primary-color;
 		}
 		figure .img-logo { height: 70%; }
@@ -860,6 +860,152 @@ export default {
 		.bg-2015 .title { top: 35%; }
 		.bg-2014 .title { bottom: 40%; }
 		.bg-2020 h2 { font-size: 18px; }
+	
+		.bg-2014 {
+			.a {
+				width: 60%;
+				height: 40%;
+			}
+			.b {
+				left: initial;
+				right: 2%;
+				width: 34%;
+				height: 96%;
+			}
+			.c { display: none; }
+			.d { display: none; }
+			.e { display: none; }
+			.f { display: none; }
+			.g { display: none; }
+			.h {
+				bottom: 2%;
+				right: initial;
+				left: 2%;
+				width: 60%;
+				height: 55%;
+			}
+		}
+		.bg-2015 {
+			.a { display: none; }
+			.b {
+				left: initial;
+				right: 2%;
+				width: 50%;
+				height: 40%;
+			}
+			.c { display: none; }
+			.d { display: none; }
+			.e {
+				width: 44%;
+				height: 70%;
+			}
+			.f {
+				bottom: 2%;
+				left: initial;
+				right: 2%;
+				width: 50%;
+				height: 54%;
+			}
+			.g {
+				background-color: #fff;
+				bottom: initial;
+				right: initial;
+				top: 2%;
+				left: 2%;
+				width: 44%;
+				height: 24%;
+			}
+			.h { display: none; }
+		}
+		.bg-2016 {
+			.a { display: none; }
+			.b { display: none; }
+			.c { display: none; }
+			.d { display: none; }
+			.e {
+				top: 2%;
+				left: 2%;
+				width: 96%;
+				height: 50%;
+			}
+			.f { display: none; }
+			.g { display: none; }
+			.h {
+				width: 96%;
+				height: 44%;
+
+				.img-width { width: 100%; }
+			}
+		}
+		.bg-2017 {
+			.a {
+				width: 60%;
+				height: 30%;
+				.img-width { width: 100%; }
+			}
+			.b { display: none; }
+			.c {
+				top: 2%;
+				left: initial;
+				right: 2%;
+				width: 34%;
+				height: 30%;
+			}
+			.d {
+				background: $tertiary-color;
+				top: initial;
+				bottom: 2%;
+				right: 2%;
+				width: 96%;
+				height: 64%;
+			}
+			.e { display: none; }
+			.f { display: none; }
+			.g { display: none; }
+			.h { display: none; }
+		}
+		.bg-2018 {
+			.a { width: 96%; }
+			.b { display: none; }
+			.c { display: none; }
+			.d {
+				top: initial;
+				bottom: 2%;
+				right: 2%;
+				width: 40%;
+				height: 40%;
+			}
+			.e { display: none; }
+			.f { display: none; }
+			.g {
+				bottom: 2%;
+				right: initial;
+				left: 2%;
+				width: 54%;
+				height: 40%;
+			}
+		}
+		.bg-2019 {
+			.a { display: none; }
+			.b {
+				left: initial;
+				right: 2%;
+				width: 62%;
+				.img-width { width: 100%; }
+			}
+			.c {
+				top: 2%;
+				left: 2%;
+				width: 32%;
+				height: 34%;
+			}
+			.d {
+				width: 44%;
+				height: 60%;
+			}
+			.e { display: none; }
+			.f { width: 50%; }
+		}
 	}
 }
 
