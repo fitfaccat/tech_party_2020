@@ -316,6 +316,7 @@ export default {
 		padding: 1rem;
 		position: relative;
 	}
+	.text-responsive { display: none; }
 	.text,
 	.title {
 		background: #ffffffdd;
